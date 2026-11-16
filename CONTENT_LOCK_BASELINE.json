@@ -1,0 +1,2046 @@
+{
+  "generatedAt": "2026-11-03T17:41:06.332Z",
+  "source": "src/lib/cms/seed.ts",
+  "count": 40,
+  "docs": [
+    {
+      "key": "settings/global",
+      "type": "settings",
+      "slug": "global",
+      "title": "Configurações gerais",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "siteName": "Grifo Agency",
+        "tagline": "O ecossistema para marcas que fazem história.",
+        "description": "Consulting, Marketing, Studios e Tech conectados para transformar desafios em oportunidades de crescimento. Especialistas em Mercado Imobiliário, Educação e Empresas de Tecnologia.",
+        "ogImage": {
+          "src": "/brand/og-default.jpg",
+          "alt": "Grifo — Ecossistema de marcas que fazem história"
+        },
+        "contact": {
+          "email": "",
+          "phone": "",
+          "whatsapp": "",
+          "address": ""
+        },
+        "socials": [],
+        "legal": {
+          "company": "",
+          "cnpj": "",
+          "dpo": ""
+        },
+        "leadRouting": [
+          {
+            "segment": "imobiliario",
+            "emails": ""
+          },
+          {
+            "segment": "educacao",
+            "emails": ""
+          },
+          {
+            "segment": "tecnologia",
+            "emails": ""
+          },
+          {
+            "segment": "outros",
+            "emails": ""
+          }
+        ],
+        "gtmId": "",
+        "retentionMonths": 24,
+        "privacyVersion": "2026-11"
+      }
+    },
+    {
+      "key": "home/home",
+      "type": "home",
+      "slug": "home",
+      "title": "Home",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Grifo Agency — O ecossistema para marcas que fazem história",
+        "description": "Inteligência, criatividade, comunicação e tecnologia conectadas para transformar desafios em oportunidades de crescimento."
+      },
+      "data": {
+        "hero": {
+          "eyebrow": "CONSULTING / MARKETING / STUDIOS / TECH",
+          "title": "Marcas que pensam grande precisam de estratégias à altura.",
+          "text": "Conectamos inteligência de mercado, criatividade, comunicação e tecnologia para transformar desafios em oportunidades de crescimento.",
+          "cta": {
+            "label": "Conheça nosso ecossistema",
+            "href": "/sobre"
+          },
+          "cta2": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        },
+        "proof": {
+          "title": "Experiência que constrói histórias.\nEstratégia que impulsiona resultados.",
+          "text": "Nossa trajetória reúne projetos de diferentes portes e segmentos. Uma experiência construída na prática, conectando visão estratégica, criatividade e capacidade de execução.",
+          "showMetrics": true
+        },
+        "ecosystem": {
+          "title": "Diferentes especialidades.\nUma única visão de negócio.",
+          "text": "Os melhores resultados acontecem quando estratégia, comunicação, conteúdo e tecnologia trabalham na mesma direção. Por isso, organizamos nossas competências em quatro frentes que se complementam."
+        },
+        "specialties": {
+          "title": "Entendemos de marketing.\nMas, principalmente, entendemos do seu mercado.",
+          "text": "Cada setor possui uma jornada de compra, uma dinâmica comercial e desafios específicos. Desenvolvemos estratégias adaptadas à realidade de cada negócio."
+        },
+        "micca": {
+          "title": "Resultados não começam na campanha.\nComeçam no método.",
+          "text": "Criamos o MICCA para conectar as decisões que determinam o desempenho de uma campanha: o que queremos alcançar, quanto investir, o que comunicar, onde encontrar o público e como transformar oportunidades em negócios.",
+          "cta": {
+            "label": "Descubra o método MICCA",
+            "href": "/metodologia-micca"
+          }
+        },
+        "projects": {
+          "title": "Estratégia aplicada.\nCriatividade em movimento.",
+          "text": "Cada projeto começa com um desafio de negócio e se transforma em uma solução construída para aquela realidade.",
+          "cases": [
+            "reserva-dos-ipes",
+            "nova-harmonia",
+            "uniceug-vestibular-2025-1",
+            "pinauto",
+            "esfiharia-brasil"
+          ],
+          "cta": {
+            "label": "Ver todos os projetos",
+            "href": "/projetos"
+          }
+        },
+        "process": {
+          "title": "Do primeiro diagnóstico à próxima oportunidade de crescimento.",
+          "steps": [
+            {
+              "title": "Entendemos",
+              "text": "Negócio e desafios."
+            },
+            {
+              "title": "Planejamos",
+              "text": "Metas e investimentos."
+            },
+            {
+              "title": "Criamos",
+              "text": "Conceitos e campanhas."
+            },
+            {
+              "title": "Executamos",
+              "text": "Canais e operação."
+            },
+            {
+              "title": "Evoluímos",
+              "text": "Indicadores e otimizações."
+            }
+          ]
+        },
+        "insights": {
+          "title": "Ideias que provocam.\nConhecimento que movimenta negócios.",
+          "text": "",
+          "cta": {
+            "label": "Ver todos os insights",
+            "href": "/insights"
+          }
+        },
+        "final": {
+          "title": "Seu próximo grande resultado começa com uma boa estratégia.",
+          "text": "Conte seu desafio. Vamos descobrir como conectar inteligência, criatividade e execução para impulsionar seu negócio.",
+          "cta": {
+            "label": "Converse com a Grifo",
+            "href": "/contato"
+          }
+        }
+      }
+    },
+    {
+      "key": "about/sobre",
+      "type": "about",
+      "slug": "sobre",
+      "title": "Sobre",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Sobre a Grifo — Ecossistema de marcas que fazem história",
+        "description": "Desde 2016, conectamos estratégia, criatividade e comunicação para construir marcas fortes e novas oportunidades de negócio."
+      },
+      "data": {
+        "hero": {
+          "eyebrow": "SOBRE A GRIFO",
+          "title": "Somos a Grifo.\nUm ecossistema criado para marcas que fazem história.",
+          "text": "Desde 2016, conectamos estratégia, criatividade e comunicação para ajudar empresas a construir marcas fortes e desenvolver novas oportunidades de negócio. Nossa trajetória nasceu na publicidade e evoluiu para um ecossistema integrado de inteligência, marketing, produção audiovisual e tecnologia.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          },
+          "cta2": {
+            "label": "Conheça o método MICCA",
+            "href": "/metodologia-micca"
+          }
+        },
+        "vision": {
+          "title": "Inteligência, criatividade, comunicação e tecnologia.\nConectadas.",
+          "text": "Acreditamos que marcas crescem quando as decisões de negócio, a comunicação e a operação caminham juntas. Por isso, em vez de serviços avulsos, a Grifo organiza suas competências como um ecossistema: Consulting lidera a estratégia; Marketing, Studios e Tech transformam a estratégia em presença, conteúdo e resultado."
+        },
+        "manifesto": {
+          "title": "Chegou a hora. A nova Grifo.",
+          "video": {
+            "src": "/video/nova-grifo.mp4",
+            "poster": "/video/nova-grifo-poster.jpg"
+          },
+          "poster": {
+            "src": "/video/nova-grifo-poster.jpg",
+            "alt": "Quadro do filme de reposicionamento da Grifo"
+          }
+        },
+        "timeline": {
+          "title": "Uma trajetória construída na prática.",
+          "items": [
+            {
+              "year": "2016",
+              "title": "Fundação",
+              "text": "A Grifo nasce na publicidade.",
+              "pending": false
+            },
+            {
+              "year": "2025",
+              "title": "Reposicionamento",
+              "text": "A Grifo se organiza como ecossistema: Consulting, Marketing, Studios e Tech.",
+              "pending": false
+            },
+            {
+              "year": "2026",
+              "title": "Consolidação do modelo integrado",
+              "text": "Metodologia MICCA e soluções especializadas por mercado.",
+              "pending": false
+            }
+          ]
+        },
+        "team": {
+          "title": "Quem faz a Grifo acontecer.",
+          "text": ""
+        },
+        "metrics": {
+          "title": "Experiência construída em projetos reais.",
+          "text": ""
+        },
+        "culture": {
+          "title": "Uma marca que incomoda, engaja, transforma e impacta.",
+          "text": "Nossa cultura está na forma como trabalhamos: perguntas antes de respostas, método antes da execução e responsabilidade com o resultado de cada cliente.",
+          "values": [
+            {
+              "title": "Estratégia primeiro",
+              "text": "Toda entrega começa por uma decisão de negócio."
+            },
+            {
+              "title": "Uma só operação",
+              "text": "Especialidades diferentes trabalhando na mesma direção."
+            },
+            {
+              "title": "Clareza",
+              "text": "Comunicação direta, sem jargão e sem promessas vazias."
+            }
+          ],
+          "gallery": [
+            {
+              "image": {
+                "src": "/acervo/marca-papelaria.webp",
+                "alt": "Aplicações da marca Grifo em papelaria"
+              },
+              "caption": "Identidade Grifo"
+            },
+            {
+              "image": {
+                "src": "/acervo/marca-camisetas.webp",
+                "alt": "Camisetas com o manifesto Incomode, engaje, transforme, impacte"
+              },
+              "caption": "Manifesto"
+            },
+            {
+              "image": {
+                "src": "/acervo/marca-cracha-polo.webp",
+                "alt": "Crachá e uniforme com a marca Grifo"
+              },
+              "caption": "Cultura no dia a dia"
+            }
+          ]
+        },
+        "final": {
+          "title": "Vamos construir a próxima história juntos?",
+          "text": "Conte seu desafio e descubra como o ecossistema Grifo pode apoiar seu crescimento.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        }
+      }
+    },
+    {
+      "key": "micca/metodologia-micca",
+      "type": "micca",
+      "slug": "metodologia-micca",
+      "title": "Metodologia MICCA",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "MICCA — Inteligência antes da campanha | Grifo",
+        "description": "Meta, Investimento, Conteúdo, Canais e Atendimento: as cinco decisões que determinam o desempenho de uma campanha."
+      },
+      "data": {
+        "hero": {
+          "eyebrow": "METODOLOGIA PROPRIETÁRIA",
+          "title": "MICCA.\nInteligência antes da campanha. Método durante toda a operação.",
+          "text": "Desenvolvido a partir da experiência prática da Grifo, o MICCA organiza cinco decisões fundamentais para o desempenho de campanhas: Meta, Investimento, Conteúdo, Canais e Atendimento.",
+          "cta": {
+            "label": "Aplicar o MICCA no meu negócio",
+            "href": "/contato"
+          }
+        },
+        "pillars": [
+          {
+            "letter": "M",
+            "name": "Meta",
+            "summary": "Objetivos e indicadores",
+            "text": "O que queremos alcançar, em quanto tempo e como vamos medir. Toda decisão posterior responde à meta."
+          },
+          {
+            "letter": "I",
+            "name": "Investimento",
+            "summary": "Recursos e eficiência",
+            "text": "Quanto investir para atingir a meta, como distribuir a verba e qual custo por resultado é aceitável."
+          },
+          {
+            "letter": "C",
+            "name": "Conteúdo",
+            "summary": "Mensagem e proposta de valor",
+            "text": "Qual conceito, quais argumentos e quais criativos vão comunicar o valor certo para o público certo."
+          },
+          {
+            "letter": "C",
+            "name": "Canais",
+            "summary": "Distribuição",
+            "text": "Onde o público está e quais canais — online e offline — entregam alcance com qualidade."
+          },
+          {
+            "letter": "A",
+            "name": "Atendimento",
+            "summary": "Conversão e experiência",
+            "text": "O que acontece depois do contato: velocidade de resposta, qualificação, acompanhamento e venda."
+          }
+        ],
+        "applications": [
+          {
+            "sector": "imobiliario",
+            "label": "Imobiliário",
+            "items": [
+              {
+                "pillar": "Meta",
+                "text": "Quantas unidades vender, em quanto tempo e com qual velocidade de vendas?"
+              },
+              {
+                "pillar": "Investimento",
+                "text": "Qual orçamento de lançamento, distribuição de mídia e custo por venda esperado?"
+              },
+              {
+                "pillar": "Conteúdo",
+                "text": "Qual conceito vai vender o produto, com quais argumentos e criativos?"
+              },
+              {
+                "pillar": "Canais",
+                "text": "Meta, Google, portais, outdoor, rádio, influenciadores, eventos, corretores, imobiliárias e PDV."
+              },
+              {
+                "pillar": "Atendimento",
+                "text": "O que acontece depois do lead: CRM, distribuição, velocidade de atendimento, qualificação, visita, proposta e venda."
+              }
+            ]
+          },
+          {
+            "sector": "educacao",
+            "label": "Educação",
+            "items": [
+              {
+                "pillar": "Meta",
+                "text": "Quantas matrículas alcançar?"
+              },
+              {
+                "pillar": "Investimento",
+                "text": "Qual verba e qual custo por matrícula?"
+              },
+              {
+                "pillar": "Conteúdo",
+                "text": "Quais diferenciais e quais cursos comunicar?"
+              },
+              {
+                "pillar": "Canais",
+                "text": "Onde estão os alunos?"
+              },
+              {
+                "pillar": "Atendimento",
+                "text": "Como converter interessados em inscritos e matriculados?"
+              }
+            ]
+          },
+          {
+            "sector": "tecnologia",
+            "label": "Tecnologia",
+            "items": [
+              {
+                "pillar": "Meta",
+                "text": "Leads qualificados, demos e clientes."
+              },
+              {
+                "pillar": "Investimento",
+                "text": "CAC e eficiência."
+              },
+              {
+                "pillar": "Conteúdo",
+                "text": "Proposta de valor e casos de uso."
+              },
+              {
+                "pillar": "Canais",
+                "text": "Search, social, parceiros e comunidades."
+              },
+              {
+                "pillar": "Atendimento",
+                "text": "Qualificação, demo, CRM e follow-up."
+              }
+            ]
+          }
+        ],
+        "why": {
+          "title": "Método antes da execução.\nInteligência em cada decisão.",
+          "text": "O MICCA não elimina os riscos próprios de um mercado. Ele reduz decisões tomadas no escuro: cada peça, cada real investido e cada contato passam a responder a uma meta comum."
+        },
+        "final": {
+          "title": "Sua próxima campanha começa com cinco boas decisões.",
+          "text": "Vamos aplicar o MICCA à realidade do seu negócio.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        }
+      }
+    },
+    {
+      "key": "projectsPage/projetos",
+      "type": "projectsPage",
+      "slug": "projetos",
+      "title": "Projetos",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Projetos — Estratégia aplicada | Grifo",
+        "description": "Cases de lançamentos imobiliários, educação e marcas: contexto, desafio, estratégia e execução."
+      },
+      "data": {
+        "hero": {
+          "eyebrow": "PROJETOS",
+          "title": "Projetos diferentes.\nUm compromisso em comum: fazer cada estratégia acontecer.",
+          "text": ""
+        },
+        "final": {
+          "title": "Seu projeto pode ser o próximo.",
+          "text": "Conte seu desafio de negócio.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        }
+      }
+    },
+    {
+      "key": "insightsPage/insights",
+      "type": "insightsPage",
+      "slug": "insights",
+      "title": "Insights",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Insights — Ideias que movimentam negócios | Grifo",
+        "description": "Conteúdo sobre marketing, mercado imobiliário, educação, tecnologia e o método MICCA."
+      },
+      "data": {
+        "hero": {
+          "eyebrow": "INSIGHTS",
+          "title": "Ideias que provocam.\nConhecimento que movimenta negócios.",
+          "text": ""
+        }
+      }
+    },
+    {
+      "key": "contactPage/contato",
+      "type": "contactPage",
+      "slug": "contato",
+      "title": "Contato",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Contato — Vamos conversar | Grifo",
+        "description": "Conte seu desafio. Vamos descobrir como conectar inteligência, criatividade e execução para impulsionar seu negócio."
+      },
+      "data": {
+        "hero": {
+          "eyebrow": "CONTATO",
+          "title": "Vamos conversar.",
+          "text": "Conte seu desafio. Vamos descobrir como conectar inteligência, criatividade e execução para impulsionar seu negócio."
+        },
+        "successTitle": "Recebemos sua mensagem.",
+        "successText": "Um especialista da Grifo vai analisar seu desafio e retornar pelo e-mail ou WhatsApp informado.",
+        "next": [
+          {
+            "title": "Análise do seu desafio",
+            "text": "Direcionamos seu contato para o especialista do seu segmento."
+          },
+          {
+            "title": "Primeira conversa",
+            "text": "Entendemos objetivos, prazos e contexto do negócio."
+          },
+          {
+            "title": "Proposta de caminho",
+            "text": "Apresentamos como o ecossistema Grifo pode apoiar seu crescimento."
+          }
+        ]
+      }
+    },
+    {
+      "key": "coreLanding/grifo-core",
+      "type": "coreLanding",
+      "slug": "grifo-core",
+      "title": "Grifo Core",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Grifo Core Assessment — Diagnóstico para lançamentos imobiliários",
+        "description": "Solicite o Grifo Core Assessment: diagnóstico de produto, VGV, unidades, ticket, público, prazo, verba, canais, CRM e metas."
+      },
+      "data": {
+        "hero": {
+          "eyebrow": "GRIFO REAL ESTATE • POWERED BY MICCA™",
+          "title": "Seu próximo lançamento começa com uma estratégia.",
+          "text": "O Grifo Core Assessment organiza as informações que orientam um lançamento antes de qualquer investimento em mídia.",
+          "cta": {
+            "label": "Solicitar Grifo Core Assessment",
+            "href": "#assessment"
+          },
+          "cta2": {
+            "label": "Conheça o Grifo Core",
+            "href": "/especialidades/imobiliario"
+          }
+        },
+        "assessment": {
+          "title": "Grifo Core Assessment.",
+          "text": "Um diagnóstico inicial do seu empreendimento para entender o ponto de partida e o caminho até as metas de venda.",
+          "checklist": [
+            {
+              "title": "Produto",
+              "text": ""
+            },
+            {
+              "title": "VGV",
+              "text": ""
+            },
+            {
+              "title": "Unidades",
+              "text": ""
+            },
+            {
+              "title": "Ticket",
+              "text": ""
+            },
+            {
+              "title": "Público",
+              "text": ""
+            },
+            {
+              "title": "Prazo",
+              "text": ""
+            },
+            {
+              "title": "Verba",
+              "text": ""
+            },
+            {
+              "title": "Canais",
+              "text": ""
+            },
+            {
+              "title": "CRM",
+              "text": ""
+            },
+            {
+              "title": "Metas",
+              "text": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "solution/consulting",
+      "type": "solution",
+      "slug": "consulting",
+      "title": "Consulting",
+      "placeholder": false,
+      "sort": 1,
+      "seo": {
+        "title": "Grifo Consulting — Boas decisões constroem grandes resultados",
+        "description": "Acreditamos que as melhores campanhas começam muito antes da primeira peça criativa. Começam com boas perguntas, inteligência de mercado e decisões estraté"
+      },
+      "data": {
+        "name": "Consulting",
+        "tagline": "Inteligência para tomar decisões melhores.",
+        "hero": {
+          "eyebrow": "GRIFO CONSULTING",
+          "title": "Boas decisões constroem grandes resultados.",
+          "text": "Acreditamos que as melhores campanhas começam muito antes da primeira peça criativa. Começam com boas perguntas, inteligência de mercado e decisões estratégicas. A Grifo Consulting conecta diagnóstico, posicionamento, planejamento e gestão para ajudar empresas a identificar oportunidades, organizar investimentos e desenvolver estratégias consistentes de crescimento.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato?demanda=consultoria"
+          }
+        },
+        "image": {
+          "src": "/acervo/marca-consulting.webp",
+          "alt": "Grifo Consulting — estratégias para escalar negócios"
+        },
+        "video": {
+          "src": "",
+          "poster": ""
+        },
+        "services": {
+          "title": "O que fazemos.",
+          "text": "",
+          "items": [
+            {
+              "title": "Diagnóstico",
+              "text": ""
+            },
+            {
+              "title": "Planejamento",
+              "text": ""
+            },
+            {
+              "title": "Posicionamento",
+              "text": ""
+            },
+            {
+              "title": "Lançamentos",
+              "text": ""
+            },
+            {
+              "title": "Consultoria comercial",
+              "text": ""
+            },
+            {
+              "title": "Indicadores",
+              "text": ""
+            }
+          ]
+        },
+        "final": {
+          "title": "Vamos colocar essa frente para trabalhar pelo seu negócio?",
+          "text": "",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        },
+        "order": 1
+      }
+    },
+    {
+      "key": "solution/marketing",
+      "type": "solution",
+      "slug": "marketing",
+      "title": "Marketing",
+      "placeholder": false,
+      "sort": 2,
+      "seo": {
+        "title": "Grifo Marketing — Ideias que conectam marcas, pessoas e resultados",
+        "description": "Criamos marcas relevantes e campanhas que fazem sentido para o público e para o negócio. Combinamos criatividade, planejamento e inteligência de mídia para"
+      },
+      "data": {
+        "name": "Marketing",
+        "tagline": "Marcas fortes, campanhas relevantes e comunicação orientada a resultados.",
+        "hero": {
+          "eyebrow": "GRIFO MARKETING",
+          "title": "Ideias que conectam marcas, pessoas e resultados.",
+          "text": "Criamos marcas relevantes e campanhas que fazem sentido para o público e para o negócio. Combinamos criatividade, planejamento e inteligência de mídia para desenvolver experiências de comunicação que fortalecem marcas, geram demanda e apoiam resultados comerciais.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato?demanda=campanha"
+          }
+        },
+        "image": {
+          "src": "/acervo/marca-marketing.webp",
+          "alt": "Grifo Marketing — estratégia, criatividade e performance"
+        },
+        "video": {
+          "src": "",
+          "poster": ""
+        },
+        "services": {
+          "title": "O que fazemos.",
+          "text": "",
+          "items": [
+            {
+              "title": "Branding",
+              "text": ""
+            },
+            {
+              "title": "Campanhas",
+              "text": ""
+            },
+            {
+              "title": "Social",
+              "text": ""
+            },
+            {
+              "title": "Mídia online e offline",
+              "text": ""
+            },
+            {
+              "title": "Performance",
+              "text": ""
+            },
+            {
+              "title": "Conteúdo",
+              "text": ""
+            },
+            {
+              "title": "Inbound",
+              "text": ""
+            },
+            {
+              "title": "SEO",
+              "text": ""
+            }
+          ]
+        },
+        "final": {
+          "title": "Vamos colocar essa frente para trabalhar pelo seu negócio?",
+          "text": "",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        },
+        "order": 2
+      }
+    },
+    {
+      "key": "solution/studios",
+      "type": "solution",
+      "slug": "studios",
+      "title": "Studios",
+      "placeholder": false,
+      "sort": 3,
+      "seo": {
+        "title": "Grifo Studios — Histórias que merecem ser vistas, sentidas e lembradas",
+        "description": "Uma boa história merece uma grande produção. Transformamos conceitos e estratégias em experiências audiovisuais que aproximam marcas de pessoas, despertam "
+      },
+      "data": {
+        "name": "Studios",
+        "tagline": "Histórias que ganham forma, movimento e emoção.",
+        "hero": {
+          "eyebrow": "GRIFO STUDIOS",
+          "title": "Histórias que merecem ser vistas, sentidas e lembradas.",
+          "text": "Uma boa história merece uma grande produção. Transformamos conceitos e estratégias em experiências audiovisuais que aproximam marcas de pessoas, despertam emoções e valorizam cada mensagem.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato?demanda=producao"
+          }
+        },
+        "image": {
+          "src": "/acervo/marca-studios.webp",
+          "alt": "Grifo Studios — conteúdo visual que conecta e engaja"
+        },
+        "video": {
+          "src": "/video/logo-animada.mp4",
+          "poster": "/video/logo-animada-poster.jpg"
+        },
+        "services": {
+          "title": "O que fazemos.",
+          "text": "",
+          "items": [
+            {
+              "title": "Filmes",
+              "text": ""
+            },
+            {
+              "title": "Institucionais",
+              "text": ""
+            },
+            {
+              "title": "Vídeos sociais",
+              "text": ""
+            },
+            {
+              "title": "Fotografia",
+              "text": ""
+            },
+            {
+              "title": "Drone",
+              "text": ""
+            },
+            {
+              "title": "Motion",
+              "text": ""
+            },
+            {
+              "title": "Animação",
+              "text": ""
+            }
+          ]
+        },
+        "final": {
+          "title": "Vamos colocar essa frente para trabalhar pelo seu negócio?",
+          "text": "",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        },
+        "order": 3
+      }
+    },
+    {
+      "key": "solution/tech",
+      "type": "solution",
+      "slug": "tech",
+      "title": "Tech",
+      "placeholder": false,
+      "sort": 4,
+      "seo": {
+        "title": "Grifo Tech — Tecnologia que conecta estratégias a resultados",
+        "description": "Conectamos comunicação, dados e tecnologia para tornar as estratégias mais inteligentes e as operações mais eficientes. Desenvolvemos experiências digitais"
+      },
+      "data": {
+        "name": "Tech",
+        "tagline": "Tecnologia para conectar dados, operações e oportunidades.",
+        "hero": {
+          "eyebrow": "GRIFO TECH",
+          "title": "Tecnologia que conecta estratégias a resultados.",
+          "text": "Conectamos comunicação, dados e tecnologia para tornar as estratégias mais inteligentes e as operações mais eficientes. Desenvolvemos experiências digitais e integrações que aproximam marcas dos seus públicos, organizam informações e facilitam a jornada de conversão.",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato?demanda=tech"
+          }
+        },
+        "image": {
+          "src": "/acervo/marca-tech.webp",
+          "alt": "Grifo Tech — tecnologia para performance e inovação"
+        },
+        "video": {
+          "src": "",
+          "poster": ""
+        },
+        "services": {
+          "title": "O que fazemos.",
+          "text": "",
+          "items": [
+            {
+              "title": "Websites",
+              "text": ""
+            },
+            {
+              "title": "Landing pages",
+              "text": ""
+            },
+            {
+              "title": "Soluções web",
+              "text": ""
+            },
+            {
+              "title": "Integrações",
+              "text": ""
+            },
+            {
+              "title": "Automações",
+              "text": ""
+            },
+            {
+              "title": "Dashboards",
+              "text": ""
+            },
+            {
+              "title": "Tracking",
+              "text": ""
+            }
+          ]
+        },
+        "final": {
+          "title": "Vamos colocar essa frente para trabalhar pelo seu negócio?",
+          "text": "",
+          "cta": {
+            "label": "Vamos conversar",
+            "href": "/contato"
+          }
+        },
+        "order": 4
+      }
+    },
+    {
+      "key": "specialty/imobiliario",
+      "type": "specialty",
+      "slug": "imobiliario",
+      "title": "Mercado Imobiliário",
+      "placeholder": false,
+      "sort": 1,
+      "seo": {
+        "title": "Grifo Core — Estratégia integrada para lançamentos imobiliários",
+        "description": "Inteligência de mercado, posicionamento, branding, planejamento, mídia, tecnologia e integração comercial em uma estratégia coordenada."
+      },
+      "data": {
+        "name": "Mercado Imobiliário",
+        "tagline": "Da inteligência de mercado à velocidade de vendas.",
+        "hero": {
+          "eyebrow": "GRIFO REAL ESTATE • POWERED BY MICCA™",
+          "title": "Você desenvolve o empreendimento.\nA Grifo estrutura o lançamento.",
+          "text": "Inteligência de mercado, posicionamento, branding, planejamento, mídia, tecnologia e integração comercial em uma estratégia coordenada para transformar lançamentos em operações orientadas a resultados.",
+          "cta": {
+            "label": "Planeje seu próximo lançamento",
+            "href": "#formulario"
+          }
+        },
+        "challenge": {
+          "title": "Um lançamento imobiliário exige muito mais do que uma campanha.",
+          "text": "Da definição do produto à última etapa de vendas, um lançamento envolve decisões estratégicas, investimentos, posicionamento, comunicação, tecnologia e operação comercial. Quando essas frentes trabalham isoladamente, aumentam os riscos de desperdício, inconsistência e perda de oportunidades. A Grifo conecta essas especialidades dentro de um mesmo planejamento."
+        },
+        "product": {
+          "title": "Grifo Core.\nUma estratégia. Um cronograma. Uma operação.",
+          "text": "O Grifo Core é uma solução da Grifo Consulting, apoiada pelas estruturas de Marketing, Studios e Tech. Foi desenvolvido para organizar lançamentos imobiliários de ponta a ponta, conectando planejamento estratégico, execução de campanhas e inteligência comercial.",
+          "image": {
+            "src": "/acervo/core-capa.webp",
+            "alt": "Grifo Core — estratégia integrada para lançamentos imobiliários"
+          }
+        },
+        "fronts": {
+          "title": "Seis frentes.\nUma operação.",
+          "text": "A incorporadora não está comprando posts, tráfego ou identidade visual. Está comprando metodologia, planejamento, execução e inteligência para lançar um empreendimento.",
+          "items": [
+            {
+              "title": "Intelligence",
+              "text": "Diagnóstico, público, concorrência, metas e estratégia."
+            },
+            {
+              "title": "Brand & Concept",
+              "text": "Naming, identidade, KV, conceito e narrativa."
+            },
+            {
+              "title": "Launch Planning",
+              "text": "Cronograma, orçamento, fases e canais."
+            },
+            {
+              "title": "Activation",
+              "text": "Mídia, PDV, meeting, eventos e materiais."
+            },
+            {
+              "title": "Performance & Tech",
+              "text": "LPs, campanhas, tracking, dashboards e CRM."
+            },
+            {
+              "title": "Sales Integration",
+              "text": "Lead, SLA, funil e otimização."
+            }
+          ]
+        },
+        "journey": {
+          "title": "Doze etapas.\nDo primeiro estudo à otimização das vendas.",
+          "text": "Selecione uma etapa para ver o objetivo e as principais entregas.",
+          "steps": [
+            {
+              "title": "Imersão",
+              "objective": "Entender o empreendimento, a incorporadora, o terreno e o momento de mercado.",
+              "deliverables": [
+                "Reunião de imersão",
+                "Levantamento de dados do produto",
+                "Mapa de stakeholders"
+              ]
+            },
+            {
+              "title": "Estratégia",
+              "objective": "Definir metas, público, concorrência e a tese de venda do lançamento.",
+              "deliverables": [
+                "Diagnóstico de mercado",
+                "Análise de concorrência",
+                "Metas e indicadores"
+              ]
+            },
+            {
+              "title": "Posicionamento",
+              "objective": "Determinar como o empreendimento deve ser percebido e por quem.",
+              "deliverables": [
+                "Proposta de valor",
+                "Território de comunicação",
+                "Argumentos de venda"
+              ]
+            },
+            {
+              "title": "Branding",
+              "objective": "Dar nome, identidade e conceito ao produto.",
+              "deliverables": [
+                "Naming (quando necessário)",
+                "Identidade visual",
+                "Key visual e conceito"
+              ]
+            },
+            {
+              "title": "Planejamento",
+              "objective": "Organizar cronograma, orçamento, fases e canais em um só plano.",
+              "deliverables": [
+                "Cronograma master",
+                "Orçamento por fase",
+                "Plano de mídia"
+              ]
+            },
+            {
+              "title": "Produção",
+              "objective": "Transformar o conceito em materiais, peças e conteúdos.",
+              "deliverables": [
+                "Peças de campanha",
+                "Materiais comerciais",
+                "Audiovisual"
+              ]
+            },
+            {
+              "title": "Pré-lançamento",
+              "objective": "Gerar expectativa e formar base de interessados antes da abertura de vendas.",
+              "deliverables": [
+                "Campanha de teaser",
+                "Landing page",
+                "Captação de leads"
+              ]
+            },
+            {
+              "title": "Meeting",
+              "objective": "Preparar e engajar corretores e imobiliárias para vender o produto.",
+              "deliverables": [
+                "Evento de meeting",
+                "Kit do corretor",
+                "Treinamento comercial"
+              ]
+            },
+            {
+              "title": "Lançamento",
+              "objective": "Abrir vendas com comunicação coordenada em todos os canais.",
+              "deliverables": [
+                "Campanha de lançamento",
+                "Ativação de PDV",
+                "Eventos"
+              ]
+            },
+            {
+              "title": "Performance",
+              "objective": "Acompanhar mídia, leads e custo por resultado em tempo real.",
+              "deliverables": [
+                "Gestão de mídia",
+                "Tracking",
+                "Dashboards"
+              ]
+            },
+            {
+              "title": "Vendas",
+              "objective": "Integrar marketing e comercial para converter oportunidades.",
+              "deliverables": [
+                "Jornada do lead",
+                "SLA de atendimento",
+                "Acompanhamento do funil"
+              ]
+            },
+            {
+              "title": "Otimização",
+              "objective": "Ajustar estratégia, verba e mensagens a partir dos dados.",
+              "deliverables": [
+                "Análise de conversão",
+                "Relatórios",
+                "Plano de otimização"
+              ]
+            }
+          ]
+        },
+        "plan": {
+          "title": "Cada empreendimento tem uma realidade.\nCada lançamento precisa de um plano.",
+          "text": "Antes de executar, organizamos as decisões que orientam o projeto em um plano executivo: diagnóstico, estratégia, cronograma, investimento, conceito, mídia, tecnologia, funil comercial, metas e indicadores.",
+          "layers": [
+            "Diagnóstico",
+            "Estratégia",
+            "Cronograma",
+            "Investimento",
+            "Conceito",
+            "Mídia",
+            "Tecnologia",
+            "Funil comercial",
+            "Metas",
+            "Indicadores"
+          ]
+        },
+        "modules": {
+          "title": "Um núcleo estratégico.\nMódulos conforme a necessidade.",
+          "text": "",
+          "coreLabel": "Consultoria e gestão estratégica",
+          "coreText": "Núcleo obrigatório em todo projeto Grifo Core.",
+          "optional": [
+            "Branding",
+            "Performance",
+            "Studios",
+            "Tech",
+            "Experience",
+            "Sales"
+          ],
+          "note": "Escopo e contratação variam conforme o projeto. Os módulos são definidos a partir do diagnóstico de cada empreendimento."
+        },
+        "micca": {
+          "title": "MICCA aplicado a lançamentos.",
+          "items": [
+            {
+              "pillar": "Meta",
+              "text": "Quantas unidades vender, em quanto tempo e com qual velocidade de vendas?"
+            },
+            {
+              "pillar": "Investimento",
+              "text": "Qual orçamento de lançamento, distribuição de mídia e custo por venda esperado?"
+            },
+            {
+              "pillar": "Conteúdo",
+              "text": "Qual conceito vai vender o produto, com quais argumentos e criativos?"
+            },
+            {
+              "pillar": "Canais",
+              "text": "Meta, Google, portais, outdoor, rádio, influenciadores, eventos, corretores, imobiliárias e PDV."
+            },
+            {
+              "pillar": "Atendimento",
+              "text": "O que acontece depois do lead: CRM, distribuição, velocidade de atendimento, qualificação, visita, proposta e venda."
+            }
+          ]
+        },
+        "segments": {
+          "title": "",
+          "text": "",
+          "items": []
+        },
+        "proof": {
+          "title": "Mais de 100 lançamentos.\nExperiência que vai além da teoria.",
+          "text": "",
+          "cases": [
+            "reserva-dos-ipes",
+            "reserva-harmonia",
+            "aero",
+            "eldorado-veredas"
+          ]
+        },
+        "final": {
+          "title": "Seu próximo lançamento começa com uma estratégia.",
+          "text": "Solicite o Grifo Core Assessment — diagnóstico de produto, VGV, unidades, ticket, público, prazo, verba, canais, CRM e metas.",
+          "cta": {
+            "label": "Solicitar Grifo Core Assessment",
+            "href": "#formulario"
+          }
+        },
+        "formDemand": "lancamento",
+        "order": 1
+      }
+    },
+    {
+      "key": "specialty/educacao",
+      "type": "specialty",
+      "slug": "educacao",
+      "title": "Educação",
+      "placeholder": false,
+      "sort": 2,
+      "seo": {
+        "title": "Grifo Education — Estratégias de captação e matrículas",
+        "description": "Inteligência de mercado, posicionamento, campanhas de captação e tecnologia para transformar interesse em matrículas."
+      },
+      "data": {
+        "name": "Educação",
+        "tagline": "Estratégias para fortalecer instituições, atrair alunos e transformar interesse em matrículas.",
+        "hero": {
+          "eyebrow": "GRIFO EDUCATION",
+          "title": "Mais do que atrair alunos.\nCriamos estratégias para transformar interesse em matrículas.",
+          "text": "Inteligência de mercado, posicionamento, campanhas de captação e tecnologia conectadas para fortalecer instituições de ensino e apoiar seu crescimento.",
+          "cta": {
+            "label": "Planeje sua próxima campanha de matrículas",
+            "href": "#formulario"
+          }
+        },
+        "challenge": {
+          "title": "A jornada do aluno mudou.\nSua estratégia de captação precisa acompanhar.",
+          "text": "Escolher uma instituição de ensino envolve pesquisa, confiança, comparação, expectativa profissional e decisão financeira. Não basta alcançar potenciais alunos. É preciso comunicar diferenciais relevantes, construir credibilidade, facilitar o contato e acompanhar cada oportunidade até a matrícula."
+        },
+        "product": {
+          "title": "",
+          "text": ""
+        },
+        "fronts": {
+          "title": "Estratégias educacionais do posicionamento à matrícula.",
+          "text": "",
+          "items": [
+            {
+              "title": "Inteligência e posicionamento",
+              "text": "Mercado, concorrência e diferenciais que importam para o aluno."
+            },
+            {
+              "title": "Campanhas de captação",
+              "text": "Conceito e desdobramento por curso, formato e canal."
+            },
+            {
+              "title": "Branding educacional",
+              "text": "Marca que transmite confiança e expectativa de carreira."
+            },
+            {
+              "title": "Performance e geração de leads",
+              "text": "Mídia orientada a inscrições com custo acompanhado."
+            },
+            {
+              "title": "Relacionamento e automação",
+              "text": "Contato rápido e nutrição até a inscrição."
+            },
+            {
+              "title": "Inteligência de matrículas",
+              "text": "Indicadores do funil, da inscrição à matrícula."
+            }
+          ]
+        },
+        "journey": {
+          "title": "",
+          "text": "",
+          "steps": []
+        },
+        "plan": {
+          "title": "",
+          "text": "",
+          "layers": []
+        },
+        "modules": {
+          "title": "",
+          "text": "",
+          "coreLabel": "",
+          "coreText": "",
+          "optional": [],
+          "note": ""
+        },
+        "micca": {
+          "title": "MICCA aplicado à captação.",
+          "items": [
+            {
+              "pillar": "Meta",
+              "text": "Quantas matrículas alcançar?"
+            },
+            {
+              "pillar": "Investimento",
+              "text": "Qual verba e qual custo por matrícula?"
+            },
+            {
+              "pillar": "Conteúdo",
+              "text": "Quais diferenciais e quais cursos comunicar?"
+            },
+            {
+              "pillar": "Canais",
+              "text": "Onde estão os alunos?"
+            },
+            {
+              "pillar": "Atendimento",
+              "text": "Como converter interessados em inscritos e matriculados?"
+            }
+          ]
+        },
+        "segments": {
+          "title": "",
+          "text": "",
+          "items": []
+        },
+        "proof": {
+          "title": "Case UNICEUG — Vestibular 2025/1.",
+          "text": "Campanha de captação com o conceito “Prática + conhecimento = carreira de sucesso”, desdobrada por curso e formatos.",
+          "cases": [
+            "uniceug-vestibular-2025-1"
+          ]
+        },
+        "final": {
+          "title": "Sua próxima campanha de matrículas precisa começar antes da mídia.",
+          "text": "",
+          "cta": {
+            "label": "Solicitar diagnóstico de captação",
+            "href": "#formulario"
+          }
+        },
+        "formDemand": "campanha",
+        "order": 2
+      }
+    },
+    {
+      "key": "specialty/tecnologia",
+      "type": "specialty",
+      "slug": "tecnologia",
+      "title": "Tecnologia",
+      "placeholder": false,
+      "sort": 3,
+      "seo": {
+        "title": "Grifo Tech & Growth — Go-to-market e demanda B2B",
+        "description": "Posicionamento, branding, marketing e inteligência de crescimento para empresas de tecnologia."
+      },
+      "data": {
+        "name": "Tecnologia",
+        "tagline": "Posicionamento, geração de demanda e crescimento para empresas que transformam mercados.",
+        "hero": {
+          "eyebrow": "GRIFO TECH & GROWTH",
+          "title": "Sua tecnologia pode transformar o mercado.\nSua estratégia precisa fazer o mercado perceber.",
+          "text": "Posicionamento, branding, marketing e inteligência de crescimento para empresas que precisam transformar inovação em valor percebido, demanda e oportunidades comerciais.",
+          "cta": {
+            "label": "Vamos acelerar sua estratégia",
+            "href": "#formulario"
+          }
+        },
+        "challenge": {
+          "title": "Ter um grande produto não significa que o mercado entendeu seu valor.",
+          "text": "Empresas de tecnologia enfrentam o desafio de transformar funcionalidades complexas em benefícios claros e relevantes. É preciso construir uma proposta de valor, educar o mercado e criar caminhos eficientes entre descoberta, interesse, demonstração e contratação."
+        },
+        "product": {
+          "title": "",
+          "text": ""
+        },
+        "fronts": {
+          "title": "Do posicionamento à operação de marketing.",
+          "text": "",
+          "items": [
+            {
+              "title": "Brand Positioning",
+              "text": "Proposta de valor e diferenciação."
+            },
+            {
+              "title": "Go-to-Market",
+              "text": "Públicos, canais e lançamento."
+            },
+            {
+              "title": "Demand Generation",
+              "text": "Conteúdo, mídia e aquisição."
+            },
+            {
+              "title": "Product Marketing",
+              "text": "Funcionalidades e casos de uso."
+            },
+            {
+              "title": "Content & Authority",
+              "text": "Conteúdo educativo e SEO."
+            },
+            {
+              "title": "Marketing Operations",
+              "text": "LPs, automações, tracking e CRM."
+            }
+          ]
+        },
+        "journey": {
+          "title": "",
+          "text": "",
+          "steps": []
+        },
+        "plan": {
+          "title": "",
+          "text": "",
+          "layers": []
+        },
+        "modules": {
+          "title": "",
+          "text": "",
+          "coreLabel": "",
+          "coreText": "",
+          "optional": [],
+          "note": ""
+        },
+        "micca": {
+          "title": "MICCA aplicado a crescimento B2B.",
+          "items": [
+            {
+              "pillar": "Meta",
+              "text": "Leads qualificados, demos e clientes."
+            },
+            {
+              "pillar": "Investimento",
+              "text": "CAC e eficiência."
+            },
+            {
+              "pillar": "Conteúdo",
+              "text": "Proposta de valor e casos de uso."
+            },
+            {
+              "pillar": "Canais",
+              "text": "Search, social, parceiros e comunidades."
+            },
+            {
+              "pillar": "Atendimento",
+              "text": "Qualificação, demo, CRM e follow-up."
+            }
+          ]
+        },
+        "segments": {
+          "title": "Para quem.",
+          "text": "",
+          "items": [
+            {
+              "title": "SaaS",
+              "text": "Produtos por assinatura que precisam de aquisição eficiente e retenção."
+            },
+            {
+              "title": "Startups",
+              "text": "Empresas em fase de validação e escala de go-to-market."
+            },
+            {
+              "title": "Tecnologia B2B",
+              "text": "Soluções complexas com ciclos de venda consultivos."
+            }
+          ]
+        },
+        "proof": {
+          "title": "",
+          "text": "",
+          "cases": []
+        },
+        "final": {
+          "title": "A próxima fase de crescimento da sua empresa começa com uma estratégia mais clara.",
+          "text": "",
+          "cta": {
+            "label": "Converse com nossos estrategistas",
+            "href": "#formulario"
+          }
+        },
+        "formDemand": "consultoria",
+        "order": 3
+      }
+    },
+    {
+      "key": "case/reserva-dos-ipes",
+      "type": "case",
+      "slug": "reserva-dos-ipes",
+      "title": "Reserva dos Ipês",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "Reserva dos Ipês — Projeto Grifo",
+        "description": "Lançamento imobiliário com conceito “Sua vida floresce aqui”."
+      },
+      "data": {
+        "title": "Reserva dos Ipês",
+        "client": "Morais",
+        "sector": "imobiliario",
+        "competencies": [
+          "consulting",
+          "marketing"
+        ],
+        "year": "",
+        "summary": "Lançamento imobiliário com conceito “Sua vida floresce aqui”.",
+        "cover": {
+          "src": "/acervo/case-reserva-dos-ipes.webp",
+          "alt": "Peça de campanha do projeto Reserva dos Ipês"
+        },
+        "context": "_Conteúdo do case pendente: solicitar arquivos originais e autorização de uso ao cliente._",
+        "challenge": "",
+        "strategy": "",
+        "execution": "",
+        "results": "",
+        "gallery": [],
+        "credits": [],
+        "featured": true
+      }
+    },
+    {
+      "key": "case/nova-harmonia",
+      "type": "case",
+      "slug": "nova-harmonia",
+      "title": "Nova Harmonia",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "Nova Harmonia — Projeto Grifo",
+        "description": "Campanha de lançamento com mídia exterior."
+      },
+      "data": {
+        "title": "Nova Harmonia",
+        "client": "Caruaru",
+        "sector": "imobiliario",
+        "competencies": [
+          "marketing",
+          "studios"
+        ],
+        "year": "",
+        "summary": "Campanha de lançamento com mídia exterior.",
+        "cover": {
+          "src": "/acervo/case-nova-harmonia.webp",
+          "alt": "Peça de campanha do projeto Nova Harmonia"
+        },
+        "context": "",
+        "challenge": "",
+        "strategy": "",
+        "execution": "",
+        "results": "",
+        "gallery": [],
+        "credits": [],
+        "featured": true
+      }
+    },
+    {
+      "key": "case/reserva-harmonia",
+      "type": "case",
+      "slug": "reserva-harmonia",
+      "title": "Reserva Harmonia",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "Reserva Harmonia — Projeto Grifo",
+        "description": "Lançamento com comunicação centrada na vida em família."
+      },
+      "data": {
+        "title": "Reserva Harmonia",
+        "client": "Nova Harmonia",
+        "sector": "imobiliario",
+        "competencies": [
+          "marketing",
+          "studios"
+        ],
+        "year": "",
+        "summary": "Lançamento com comunicação centrada na vida em família.",
+        "cover": {
+          "src": "/acervo/case-reserva-harmonia.webp",
+          "alt": "Peça de campanha do projeto Reserva Harmonia"
+        },
+        "context": "",
+        "challenge": "",
+        "strategy": "",
+        "execution": "",
+        "results": "",
+        "gallery": [],
+        "credits": [],
+        "featured": false
+      }
+    },
+    {
+      "key": "case/aero",
+      "type": "case",
+      "slug": "aero",
+      "title": "AERO",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "AERO — Projeto Grifo",
+        "description": "Lançamento com experiência de PDV."
+      },
+      "data": {
+        "title": "AERO",
+        "client": "PH Engenharia",
+        "sector": "imobiliario",
+        "competencies": [
+          "marketing",
+          "studios"
+        ],
+        "year": "",
+        "summary": "Lançamento com experiência de PDV.",
+        "cover": {
+          "src": "/acervo/case-aero.webp",
+          "alt": "Peça de campanha do projeto AERO"
+        },
+        "context": "",
+        "challenge": "",
+        "strategy": "",
+        "execution": "",
+        "results": "",
+        "gallery": [],
+        "credits": [],
+        "featured": false
+      }
+    },
+    {
+      "key": "case/eldorado-veredas",
+      "type": "case",
+      "slug": "eldorado-veredas",
+      "title": "Eldorado Veredas",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "Eldorado Veredas — Projeto Grifo",
+        "description": "Campanha de lançamento com mídia exterior."
+      },
+      "data": {
+        "title": "Eldorado Veredas",
+        "client": "",
+        "sector": "imobiliario",
+        "competencies": [
+          "marketing"
+        ],
+        "year": "",
+        "summary": "Campanha de lançamento com mídia exterior.",
+        "cover": {
+          "src": "/acervo/case-eldorado-veredas.webp",
+          "alt": "Peça de campanha do projeto Eldorado Veredas"
+        },
+        "context": "",
+        "challenge": "",
+        "strategy": "",
+        "execution": "",
+        "results": "",
+        "gallery": [],
+        "credits": [],
+        "featured": false
+      }
+    },
+    {
+      "key": "case/uniceug-vestibular-2025-1",
+      "type": "case",
+      "slug": "uniceug-vestibular-2025-1",
+      "title": "UNICEUG — Vestibular 2025/1",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "UNICEUG — Vestibular 2025/1 — Projeto Grifo",
+        "description": "Campanha de captação “Prática + conhecimento = carreira de sucesso”, desdobrada por curso e formatos."
+      },
+      "data": {
+        "title": "UNICEUG — Vestibular 2025/1",
+        "client": "UNICEUG — Centro Universitário de Goiânia",
+        "sector": "educacao",
+        "competencies": [
+          "marketing",
+          "studios"
+        ],
+        "year": "2025",
+        "summary": "Campanha de captação “Prática + conhecimento = carreira de sucesso”, desdobrada por curso e formatos.",
+        "cover": {
+          "src": "/acervo/case-uniceug-hero.webp",
+          "alt": "Peça de campanha do projeto UNICEUG — Vestibular 2025/1"
+        },
+        "context": "Campanha do Vestibular 2025/1 do UNICEUG — Centro Universitário de Goiânia.",
+        "challenge": "Comunicar a proposta de formação do centro universitário para potenciais alunos e direcioná-los à inscrição.",
+        "strategy": "Conceito criativo **“Prática + conhecimento = carreira de sucesso”**, conectando a escolha do curso à expectativa profissional.",
+        "execution": "Campanha institucional desdobrada por curso (como Psicologia, Engenharia Civil e Biomedicina) em feed, stories, banners de site e mídia de performance.",
+        "results": "",
+        "gallery": [
+          {
+            "image": {
+              "src": "/acervo/case-uniceug-pecas.webp",
+              "alt": "Peças da campanha por curso: Psicologia, Engenharia Civil e Biomedicina"
+            },
+            "caption": "Desdobramento por curso"
+          }
+        ],
+        "credits": [
+          "Conceito criativo",
+          "Campanha institucional",
+          "Direção de arte",
+          "Desdobramento"
+        ],
+        "featured": true
+      }
+    },
+    {
+      "key": "case/pinauto",
+      "type": "case",
+      "slug": "pinauto",
+      "title": "Pinauto",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "Pinauto — Projeto Grifo",
+        "description": "Projeto em fase de documentação."
+      },
+      "data": {
+        "title": "Pinauto",
+        "client": "Pinauto",
+        "sector": "outros",
+        "competencies": [
+          "marketing"
+        ],
+        "year": "",
+        "summary": "Projeto em fase de documentação.",
+        "cover": {
+          "src": "",
+          "alt": ""
+        },
+        "context": "",
+        "challenge": "",
+        "strategy": "",
+        "execution": "",
+        "results": "",
+        "gallery": [],
+        "credits": [],
+        "featured": true
+      }
+    },
+    {
+      "key": "case/esfiharia-brasil",
+      "type": "case",
+      "slug": "esfiharia-brasil",
+      "title": "Esfiharia Brasil",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "Esfiharia Brasil — Projeto Grifo",
+        "description": "Projeto em fase de documentação."
+      },
+      "data": {
+        "title": "Esfiharia Brasil",
+        "client": "Esfiharia Brasil",
+        "sector": "outros",
+        "competencies": [
+          "marketing"
+        ],
+        "year": "",
+        "summary": "Projeto em fase de documentação.",
+        "cover": {
+          "src": "",
+          "alt": ""
+        },
+        "context": "",
+        "challenge": "",
+        "strategy": "",
+        "execution": "",
+        "results": "",
+        "gallery": [],
+        "credits": [],
+        "featured": true
+      }
+    },
+    {
+      "key": "metric/anos",
+      "type": "metric",
+      "slug": "anos",
+      "title": "anos",
+      "placeholder": true,
+      "sort": 1,
+      "seo": {},
+      "data": {
+        "value": "11",
+        "label": "anos",
+        "detail": "de Grifo",
+        "criteria": "Fonte: apresentação comercial Grifo Core. Confirmar atualização e critério de contagem antes da publicação.",
+        "validated": false,
+        "contexts": [
+          "home",
+          "sobre"
+        ],
+        "order": 1
+      }
+    },
+    {
+      "key": "metric/lancamentos",
+      "type": "metric",
+      "slug": "lancamentos",
+      "title": "lançamentos",
+      "placeholder": true,
+      "sort": 2,
+      "seo": {},
+      "data": {
+        "value": "100+",
+        "label": "lançamentos",
+        "detail": "entregues",
+        "criteria": "Fonte: apresentação comercial Grifo Core. Confirmar atualização e critério de contagem antes da publicação.",
+        "validated": false,
+        "contexts": [
+          "home",
+          "sobre",
+          "imobiliario"
+        ],
+        "order": 2
+      }
+    },
+    {
+      "key": "metric/lancamentos-2026",
+      "type": "metric",
+      "slug": "lancamentos-2026",
+      "title": "lançamentos imobiliários",
+      "placeholder": true,
+      "sort": 3,
+      "seo": {},
+      "data": {
+        "value": "18",
+        "label": "lançamentos imobiliários",
+        "detail": "contratados em 2026",
+        "criteria": "Fonte: apresentação comercial Grifo Core. Confirmar atualização e critério de contagem antes da publicação.",
+        "validated": false,
+        "contexts": [
+          "home",
+          "imobiliario"
+        ],
+        "order": 3
+      }
+    },
+    {
+      "key": "team/equipe-grifo",
+      "type": "team",
+      "slug": "equipe-grifo",
+      "title": "Equipe Grifo",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "name": "Equipe Grifo",
+        "role": "Conteúdo editorial",
+        "photo": {
+          "src": "",
+          "alt": ""
+        },
+        "bio": "",
+        "linkedin": "",
+        "order": 0
+      }
+    },
+    {
+      "key": "team/pessoa-1",
+      "type": "team",
+      "slug": "pessoa-1",
+      "title": "Pessoa 1",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "name": "Nome a definir 1",
+        "role": "Cargo a definir",
+        "photo": {
+          "src": "",
+          "alt": ""
+        },
+        "bio": "",
+        "linkedin": "",
+        "order": 1
+      }
+    },
+    {
+      "key": "team/pessoa-2",
+      "type": "team",
+      "slug": "pessoa-2",
+      "title": "Pessoa 2",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "name": "Nome a definir 2",
+        "role": "Cargo a definir",
+        "photo": {
+          "src": "",
+          "alt": ""
+        },
+        "bio": "",
+        "linkedin": "",
+        "order": 2
+      }
+    },
+    {
+      "key": "team/pessoa-3",
+      "type": "team",
+      "slug": "pessoa-3",
+      "title": "Pessoa 3",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "name": "Nome a definir 3",
+        "role": "Cargo a definir",
+        "photo": {
+          "src": "",
+          "alt": ""
+        },
+        "bio": "",
+        "linkedin": "",
+        "order": 3
+      }
+    },
+    {
+      "key": "team/pessoa-4",
+      "type": "team",
+      "slug": "pessoa-4",
+      "title": "Pessoa 4",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "name": "Nome a definir 4",
+        "role": "Cargo a definir",
+        "photo": {
+          "src": "",
+          "alt": ""
+        },
+        "bio": "",
+        "linkedin": "",
+        "order": 4
+      }
+    },
+    {
+      "key": "article/micca-decisoes-antes-da-campanha",
+      "type": "article",
+      "slug": "micca-decisoes-antes-da-campanha",
+      "title": "As cinco decisões que vêm antes de qualquer campanha",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "As cinco decisões que vêm antes de qualquer campanha | Insights Grifo",
+        "description": "Meta, Investimento, Conteúdo, Canais e Atendimento: por que organizar essas decisões muda o desempenho de uma campanha."
+      },
+      "data": {
+        "title": "As cinco decisões que vêm antes de qualquer campanha",
+        "excerpt": "Meta, Investimento, Conteúdo, Canais e Atendimento: por que organizar essas decisões muda o desempenho de uma campanha.",
+        "category": "micca",
+        "tags": [
+          "MICCA",
+          "Planejamento"
+        ],
+        "author": "equipe-grifo",
+        "date": "2026-10-20",
+        "cover": {
+          "src": "",
+          "alt": ""
+        },
+        "body": "Muitas campanhas começam pela peça criativa. O MICCA propõe outra ordem: primeiro, as decisões que determinam o desempenho.\n\n## Meta\nO que queremos alcançar, em quanto tempo e como vamos medir. Sem uma meta clara, qualquer resultado parece bom — ou ruim.\n\n## Investimento\nQuanto investir para atingir a meta e qual custo por resultado é aceitável. A verba deixa de ser um número solto e passa a ser uma decisão estratégica.\n\n## Conteúdo\nQual mensagem e proposta de valor vão fazer o público escolher você. O criativo nasce da estratégia, não o contrário.\n\n## Canais\nOnde o público está. A escolha de canais considera alcance, qualidade e o papel de cada um na jornada.\n\n## Atendimento\nO que acontece depois do contato. É aqui que muitas oportunidades se perdem — e onde o método conecta marketing e vendas.\n\n> Rascunho editorial preparado a partir do material da Grifo. Revisar antes de publicar."
+      }
+    },
+    {
+      "key": "article/lancamento-imobiliario-mais-que-campanha",
+      "type": "article",
+      "slug": "lancamento-imobiliario-mais-que-campanha",
+      "title": "Por que um lançamento imobiliário exige mais do que uma campanha",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "Por que um lançamento imobiliário exige mais do que uma campanha | Insights Grifo",
+        "description": "Produto, investimento, posicionamento, comunicação, tecnologia e operação comercial precisam trabalhar no mesmo planejamento."
+      },
+      "data": {
+        "title": "Por que um lançamento imobiliário exige mais do que uma campanha",
+        "excerpt": "Produto, investimento, posicionamento, comunicação, tecnologia e operação comercial precisam trabalhar no mesmo planejamento.",
+        "category": "imobiliario",
+        "tags": [
+          "Lançamentos",
+          "Grifo Core"
+        ],
+        "author": "equipe-grifo",
+        "date": "2026-10-06",
+        "cover": {
+          "src": "",
+          "alt": ""
+        },
+        "body": "Da definição do produto à última etapa de vendas, um lançamento envolve decisões que vão muito além da mídia.\n\nQuando estratégia, branding, campanhas, tecnologia e atendimento comercial trabalham isoladamente, aumentam os riscos de desperdício, inconsistência e perda de oportunidades.\n\n## Um plano antes da execução\nOrganizar diagnóstico, estratégia, cronograma, investimento, conceito, mídia, tecnologia, funil comercial, metas e indicadores em um só documento dá à incorporadora uma visão única do lançamento.\n\n## Integração com vendas\nO lead só vira venda quando existe SLA de atendimento, distribuição e acompanhamento do funil. Por isso, a integração comercial faz parte da estratégia desde o início.\n\n> Rascunho editorial preparado a partir do material da Grifo. Revisar antes de publicar."
+      }
+    },
+    {
+      "key": "article/captacao-de-alunos-jornada",
+      "type": "article",
+      "slug": "captacao-de-alunos-jornada",
+      "title": "A jornada do aluno mudou. E a captação?",
+      "placeholder": true,
+      "sort": 0,
+      "seo": {
+        "title": "A jornada do aluno mudou. E a captação? | Insights Grifo",
+        "description": "Pesquisa, confiança, comparação e decisão financeira: o que considerar ao planejar campanhas de matrículas."
+      },
+      "data": {
+        "title": "A jornada do aluno mudou. E a captação?",
+        "excerpt": "Pesquisa, confiança, comparação e decisão financeira: o que considerar ao planejar campanhas de matrículas.",
+        "category": "educacao",
+        "tags": [
+          "Captação",
+          "Matrículas"
+        ],
+        "author": "equipe-grifo",
+        "date": "2026-09-22",
+        "cover": {
+          "src": "",
+          "alt": ""
+        },
+        "body": "Escolher uma instituição de ensino envolve pesquisa, confiança, comparação, expectativa profissional e decisão financeira.\n\n## Alcançar não basta\nÉ preciso comunicar diferenciais relevantes, construir credibilidade e facilitar o contato.\n\n## Do interesse à matrícula\nAcompanhar cada oportunidade — com resposta rápida e relacionamento — é o que transforma interessados em inscritos e matriculados.\n\n> Rascunho editorial preparado a partir do material da Grifo. Revisar antes de publicar."
+      }
+    },
+    {
+      "key": "legal/politica-de-privacidade",
+      "type": "legal",
+      "slug": "politica-de-privacidade",
+      "title": "Política de Privacidade",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Política de Privacidade | Grifo",
+        "description": "Como a Grifo trata dados pessoais coletados neste site, em conformidade com a LGPD."
+      },
+      "data": {
+        "title": "Política de Privacidade",
+        "updatedAt": "2026-11-03",
+        "body": "Esta política explica como tratamos os dados pessoais coletados neste site, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).\n\n## Quais dados coletamos\n- **Formulários de contato:** nome, empresa, e-mail, WhatsApp, segmento, tipo de demanda e mensagem.\n- **Dados de origem da visita:** parâmetros de campanha (UTM), página de entrada, página de origem e data/hora.\n- **Dados técnicos:** um identificador pseudonimizado do endereço IP, usado exclusivamente para prevenção de abuso.\n- **Cookies:** apenas os necessários ao funcionamento do site; cookies de análise e marketing somente com o seu consentimento.\n\n## Para que usamos\n- Responder à sua solicitação e apresentar propostas (execução de procedimentos preliminares a contrato).\n- Medir o desempenho do site e de campanhas, quando você autoriza cookies de análise.\n- Proteger o site contra spam e uso indevido (legítimo interesse).\n\n## Compartilhamento\nOs dados podem ser compartilhados com fornecedores que operam em nosso nome (hospedagem, CRM e envio de e-mails), sob obrigações de confidencialidade e segurança. Não vendemos dados pessoais.\n\n## Retenção\nMantemos os dados de contato pelo prazo configurado em nossa política interna de retenção, após o qual são excluídos automaticamente, salvo obrigação legal.\n\n## Seus direitos\nVocê pode solicitar confirmação de tratamento, acesso, correção, anonimização, portabilidade, eliminação e revogação do consentimento a qualquer momento pelo canal do encarregado indicado no rodapé.\n\n## Segurança\nAdotamos conexão criptografada (HTTPS), controle de acesso ao painel com senha forte e autenticação em dois fatores, registros de auditoria e minimização de dados."
+      }
+    },
+    {
+      "key": "legal/politica-de-cookies",
+      "type": "legal",
+      "slug": "politica-de-cookies",
+      "title": "Política de Cookies",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Política de Cookies | Grifo",
+        "description": "Quais cookies usamos e como gerenciar suas preferências."
+      },
+      "data": {
+        "title": "Política de Cookies",
+        "updatedAt": "2026-11-03",
+        "body": "## Cookies necessários\nGarantem o funcionamento do site e guardam suas preferências de consentimento. Não podem ser desativados.\n\n## Cookies de análise\nAjudam a entender como o site é usado (Google Analytics 4 via Google Tag Manager). Só são ativados com o seu consentimento.\n\n## Cookies de marketing\nPermitem medir campanhas e personalizar anúncios. Só são ativados com o seu consentimento.\n\n## Como gerenciar\nVocê pode alterar suas escolhas a qualquer momento pelo link **Preferências de cookies** no rodapé do site."
+      }
+    },
+    {
+      "key": "legal/termos-de-uso",
+      "type": "legal",
+      "slug": "termos-de-uso",
+      "title": "Termos de Uso",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {
+        "title": "Termos de Uso | Grifo",
+        "description": "Condições de uso do site da Grifo Agency."
+      },
+      "data": {
+        "title": "Termos de Uso",
+        "updatedAt": "2026-11-03",
+        "body": "Ao acessar este site, você concorda com estes termos.\n\n## Conteúdo\nTextos, marcas, imagens e vídeos pertencem à Grifo ou a seus clientes e parceiros, e não podem ser reproduzidos sem autorização.\n\n## Informações\nAs informações sobre serviços têm caráter institucional. Escopo, prazos e condições são definidos em proposta comercial específica.\n\n## Links externos\nNão nos responsabilizamos pelo conteúdo de sites de terceiros eventualmente indicados."
+      }
+    },
+    {
+      "key": "redirect/servicos",
+      "type": "redirect",
+      "slug": "servicos",
+      "title": "/servicos",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "from": "/servicos",
+        "to": "/solucoes/marketing"
+      }
+    },
+    {
+      "key": "redirect/quem-somos",
+      "type": "redirect",
+      "slug": "quem-somos",
+      "title": "/quem-somos",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "from": "/quem-somos",
+        "to": "/sobre"
+      }
+    },
+    {
+      "key": "redirect/blog",
+      "type": "redirect",
+      "slug": "blog",
+      "title": "/blog",
+      "placeholder": false,
+      "sort": 0,
+      "seo": {},
+      "data": {
+        "from": "/blog",
+        "to": "/insights"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+
+> grifo-site@1.0.0 test
+> node --test --experimental-strip-types --no-warnings "tests/*.test.ts"
+
+TAP version 13
+# Subtest: content lock: o copy aprovado do ZIP 2027 permanece idêntico
+ok 1 - content lock: o copy aprovado do ZIP 2027 permanece idêntico
+  ---
+  duration_ms: 3.667032
+  type: 'test'
+  ...
+# Subtest: content lock: as diferenças permitidas existem (Concessionárias integrada)
+ok 2 - content lock: as diferenças permitidas existem (Concessionárias integrada)
+  ---
+  duration_ms: 0.909466
+  type: 'test'
+  ...
+# Subtest: cases continuam pendentes de aprovação (nenhum case publicado por engano)
+ok 3 - cases continuam pendentes de aprovação (nenhum case publicado por engano)
+  ---
+  duration_ms: 0.370132
+  type: 'test'
+  ...
+# Subtest: Concessionárias: copy autorizada exatamente como no prompt mestre
+ok 4 - Concessionárias: copy autorizada exatamente como no prompt mestre
+  ---
+  duration_ms: 0.547431
+  type: 'test'
+  ...
+# Subtest: links de botões: bloqueia javascript:, data: e protocolo relativo
+ok 5 - links de botões: bloqueia javascript:, data: e protocolo relativo
+  ---
+  duration_ms: 1.070625
+  type: 'test'
+  ...
+# Subtest: mídia: só caminhos internos conhecidos ou https
+ok 6 - mídia: só caminhos internos conhecidos ou https
+  ---
+  duration_ms: 0.27368
+  type: 'test'
+  ...
+# Subtest: sanitização por schema descarta campos desconhecidos e corrige tipos
+ok 7 - sanitização por schema descarta campos desconhecidos e corrige tipos
+  ---
+  duration_ms: 0.86176
+  type: 'test'
+  ...
+# Subtest: markdown é sanitizado (sem scripts, eventos ou iframes)
+ok 8 - markdown é sanitizado (sem scripts, eventos ou iframes)
+  ---
+  duration_ms: 20.116252
+  type: 'test'
+  ...
+# Subtest: slug amigável
+ok 9 - slug amigável
+  ---
+  duration_ms: 0.466315
+  type: 'test'
+  ...
+# Subtest: lead válido passa
+ok 10 - lead válido passa
+  ---
+  duration_ms: 2.641341
+  type: 'test'
+  ...
+# Subtest: consentimento LGPD é obrigatório
+ok 11 - consentimento LGPD é obrigatório
+  ---
+  duration_ms: 0.573739
+  type: 'test'
+  ...
+# Subtest: WhatsApp exige DDD válido
+ok 12 - WhatsApp exige DDD válido
+  ---
+  duration_ms: 0.460482
+  type: 'test'
+  ...
+# Subtest: honeypot preenchido é rejeitado
+ok 13 - honeypot preenchido é rejeitado
+  ---
+  duration_ms: 0.400257
+  type: 'test'
+  ...
+# Subtest: segmento e demanda só aceitam valores da lista
+ok 14 - segmento e demanda só aceitam valores da lista
+  ---
+  duration_ms: 0.328593
+  type: 'test'
+  ...
+# Subtest: máscara BR
+ok 15 - máscara BR
+  ---
+  duration_ms: 0.210355
+  type: 'test'
+  ...
+# Subtest: migração 2027-studio: acrescenta Concessionárias sem apagar nem sobrescrever dados
+ok 16 - migração 2027-studio: acrescenta Concessionárias sem apagar nem sobrescrever dados
+  ---
+  duration_ms: 8.081539
+  type: 'test'
+  ...
+# Subtest: migração 2027-studio é idempotente
+ok 17 - migração 2027-studio é idempotente
+  ---
+  duration_ms: 4.795729
+  type: 'test'
+  ...
+# Subtest: lead: segmento concessionarias é aceito pela validação
+ok 18 - lead: segmento concessionarias é aceito pela validação
+  ---
+  duration_ms: 54.971212
+  type: 'test'
+  ...
+# Subtest: senha: hash scrypt verifica a correta e rejeita a errada
+ok 19 - senha: hash scrypt verifica a correta e rejeita a errada
+  ---
+  duration_ms: 298.379645
+  type: 'test'
+  ...
+# Subtest: política de senha forte
+ok 20 - política de senha forte
+  ---
+  duration_ms: 1.038372
+  type: 'test'
+  ...
+# Subtest: TOTP RFC 6238: código atual é aceito, código errado não
+ok 21 - TOTP RFC 6238: código atual é aceito, código errado não
+  ---
+  duration_ms: 1.506647
+  type: 'test'
+  ...
+# Subtest: IP pseudonimizado é estável e não revela o IP
+ok 22 - IP pseudonimizado é estável e não revela o IP
+  ---
+  duration_ms: 0.197811
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1487.648371
+test exit 0

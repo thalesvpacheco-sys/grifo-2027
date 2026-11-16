@@ -1,0 +1,440 @@
+{
+ "removed": 4,
+ "routes": {
+  "/": {
+   "before": 200,
+   "after": 200,
+   "removed": [
+    ", DIREÇÃO ESTRATÉGICA",
+    "›",
+    "Consulting, Marketing",
+    "Marketing, Studios"
+   ],
+   "added": [
+    "Concessionárias",
+    "Direção estratégica",
+    "Diagnóstico",
+    "Planejamento",
+    "Branding",
+    "Campanhas",
+    "Social",
+    "Filmes",
+    "Institucionais",
+    "Vídeos sociais",
+    "Websites",
+    "Landing pages",
+    "Soluções web",
+    "Estratégia, campanhas e experiências para marcas que movimentam o mercado automotivo.",
+    "Recursos e eficiência",
+    "Quanto investir para atingir a meta, como distribuir a verba e qual custo por resultado é aceitável.",
+    "Mensagem e proposta de valor",
+    "Qual conceito, quais argumentos e quais criativos vão comunicar o valor certo para o público certo.",
+    "Distribuição",
+    "Onde o público está e quais canais — online e offline — entregam alcance com qualidade.",
+    "Conversão e experiência",
+    "O que acontece depois do contato: velocidade de resposta, qualificação, acompanhamento e venda.",
+    "Arquivo em baixa resolução — aguardando original",
+    "07",
+    "08"
+   ],
+   "meta": []
+  },
+  "/sobre": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "‹",
+    "›"
+   ],
+   "meta": []
+  },
+  "/solucoes": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "01",
+    "02",
+    "03",
+    "04"
+   ],
+   "meta": []
+  },
+  "/solucoes/consulting": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "01",
+    "02",
+    "03"
+   ],
+   "meta": []
+  },
+  "/solucoes/marketing": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "01",
+    "02",
+    "03"
+   ],
+   "meta": []
+  },
+  "/solucoes/studios": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "01",
+    "02",
+    "03"
+   ],
+   "meta": []
+  },
+  "/solucoes/tech": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "01",
+    "02",
+    "03"
+   ],
+   "meta": []
+  },
+  "/especialidades": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "Concessionárias",
+    "Estratégia, campanhas e experiências para marcas que movimentam o mercado automotivo."
+   ],
+   "meta": [
+    {
+     "field": "title",
+     "before": "Especialidades — Imobiliário, Educação e Tecnologia | Grifo",
+     "after": "Especialidades — Imobiliário, Educação, Tecnologia e Concessionárias | Grifo"
+    }
+   ]
+  },
+  "/especialidades/imobiliario": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Arquivo em baixa resolução — aguardando original",
+    "Concessionárias"
+   ],
+   "meta": []
+  },
+  "/especialidades/educacao": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Concessionárias"
+   ],
+   "meta": []
+  },
+  "/especialidades/tecnologia": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Concessionárias"
+   ],
+   "meta": []
+  },
+  "/especialidades/concessionarias": {
+   "before": 404,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Início",
+    "/",
+    "Especialidades",
+    "Concessionárias",
+    "CONCESSIONÁRIAS / MERCADO AUTOMOTIVO",
+    "Sua concessionária precisa de mais que campanhas.",
+    "Precisa de uma estratégia que conecta marca e vendas.",
+    "Integramos inteligência de mercado, planejamento de mídia, criação, produção audiovisual, tecnologia e atendimento para concessionárias e grupos automotivos. Da força da marca à jornada comercial, cada ponto de contato precisa trabalhar na mesma direção.",
+    "Vamos construir sua próxima campanha.",
+    "O mercado muda rápido.",
+    "Sua comunicação precisa acompanhar cada movimento.",
+    "Lançamentos, campanhas de varejo, seminovos, pós-venda e relacionamento exigem equilíbrio entre posicionamento institucional, condições comerciais, mídia regional e atendimento. Uma campanha só gera oportunidades quando a operação está preparada para recebê-las e acompanhá-las.",
+    "01",
+    "Estratégia e calendário comercial",
+    "02",
+    "Branding, conceito e campanhas",
+    "03",
+    "Lançamentos e eventos",
+    "04",
+    "Performance e mídia regional",
+    "05",
+    "Audiovisual e conteúdo automotivo",
+    "06",
+    "CRM, atendimento e inteligência comercial",
+    "MICCA aplicado.",
+    "Conheça o método MICCA",
+    "M",
+    "Meta",
+    "I",
+    "Investimento",
+    "C",
+    "Conteúdo",
+    "Canais",
+    "A",
+    "Atendimento",
+    "Objetivos comerciais e indicadores por unidade/modelo.",
+    "Concessionárias e redes multimarcas",
+    "Lançamentos de bandeiras e novas unidades",
+    "Campanhas táticas e varejo",
+    "Seminovos",
+    "Pós-venda",
+    "Relacionamento com públicos regionais",
+    "Sua próxima campanha começa com uma estratégia à altura da sua operação.",
+    "Nome",
+    "Empresa",
+    "E-mail",
+    "WhatsApp",
+    "Segmento",
+    "Selecione",
+    "Imobiliário",
+    "Educação",
+    "Tecnologia",
+    "Outro",
+    "Tipo de demanda",
+    "Consultoria",
+    "Campanha",
+    "Lançamento",
+    "Produção",
+    "Tech",
+    "Mensagem",
+    "(opcional)",
+    "Não preencha este campo",
+    "Concordo com o tratamento dos meus dados para contato comercial, conforme a",
+    "Política de Privacidade",
+    ".",
+    "Converse com a Grifo.",
+    "Seus dados são tratados conforme a LGPD."
+   ],
+   "meta": [
+    {
+     "field": "title",
+     "before": "Grifo Agency",
+     "after": "Grifo Concessionárias — Estratégia, campanhas e experiências para o mercado automotivo"
+    },
+    {
+     "field": "description",
+     "before": "",
+     "after": "Estratégia, campanhas e experiências para marcas que movimentam o mercado automotivo."
+    }
+   ]
+  },
+  "/metodologia-micca": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Concessionárias"
+   ],
+   "meta": []
+  },
+  "/projetos": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Arquivo em baixa resolução — aguardando original"
+   ],
+   "meta": []
+  },
+  "/projetos/reserva-dos-ipes": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "Arquivo em baixa resolução — aguardando original",
+    "01",
+    "‹",
+    "Esfiharia Brasil",
+    "Próximo projeto"
+   ],
+   "meta": []
+  },
+  "/projetos/nova-harmonia": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "Arquivo em baixa resolução — aguardando original",
+    "‹",
+    "Próximo projeto"
+   ],
+   "meta": []
+  },
+  "/projetos/reserva-harmonia": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "Arquivo em baixa resolução — aguardando original",
+    "‹",
+    "Próximo projeto"
+   ],
+   "meta": []
+  },
+  "/projetos/aero": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "Arquivo em baixa resolução — aguardando original",
+    "‹",
+    "Próximo projeto",
+    "Eldorado Veredas",
+    "[alt] Peça de campanha do projeto Eldorado Veredas"
+   ],
+   "meta": []
+  },
+  "/projetos/eldorado-veredas": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "Arquivo em baixa resolução — aguardando original",
+    "‹",
+    "AERO",
+    "Próximo projeto",
+    "UNICEUG — Vestibular 2025/1",
+    "Educação",
+    "[alt] Peça de campanha do projeto UNICEUG — Vestibular 2025/1"
+   ],
+   "meta": []
+  },
+  "/projetos/uniceug-vestibular-2025-1": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "01",
+    "03",
+    "04",
+    "‹",
+    "Eldorado Veredas",
+    "Próximo projeto",
+    "Pinauto",
+    "Outros segmentos",
+    "Imagem pendente"
+   ],
+   "meta": []
+  },
+  "/projetos/pinauto": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "‹",
+    "UNICEUG — Vestibular 2025/1",
+    "Próximo projeto"
+   ],
+   "meta": []
+  },
+  "/projetos/esfiharia-brasil": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Setor",
+    "‹",
+    "Próximo projeto",
+    "Reserva dos Ipês",
+    "Mercado Imobiliário",
+    "[alt] Peça de campanha do projeto Reserva dos Ipês"
+   ],
+   "meta": []
+  },
+  "/insights": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [],
+   "meta": []
+  },
+  "/insights/micca-decisoes-antes-da-campanha": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [],
+   "meta": []
+  },
+  "/insights/lancamento-imobiliario-mais-que-campanha": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [],
+   "meta": []
+  },
+  "/insights/captacao-de-alunos-jornada": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [],
+   "meta": []
+  },
+  "/contato": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Concessionárias"
+   ],
+   "meta": []
+  },
+  "/grifo-core": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [
+    "Concessionárias"
+   ],
+   "meta": []
+  },
+  "/politica-de-privacidade": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [],
+   "meta": []
+  },
+  "/politica-de-cookies": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [],
+   "meta": []
+  },
+  "/termos-de-uso": {
+   "before": 200,
+   "after": 200,
+   "removed": [],
+   "added": [],
+   "meta": []
+  }
+ }
+}

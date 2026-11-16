@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Render · Asa Grifo 3D</title>
+<style>html,body{margin:0;background:transparent;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<script type="module">
+/*
+ * Escultura "Asa Grifo" — renderização OFFLINE (o site não carrega Three.js).
+ * Geometria derivada das três penas da asa do logotipo oficial: topo reto, ponta reta, cauda curva;
+ * comprimentos decrescentes e início escalonado, como no símbolo. O logotipo em si não é deformado.
+ * Iluminação de estúdio: softboxes e faixas de luz (lightformers) num ambiente PMREM próprio.
+ * Parâmetros (query): variant=noir|ivory · w · h · bg=0|1 · frames · ss (supersampling)
+ */
+import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+
+const q = new URLSearchParams(location.search);
+const W = +(q.get('w') || 1600), H = +(q.get('h') || 1200);
+const SS = +(q.get('ss') || 2);
+const variant = q.get('variant') || 'noir';
+const withBg = q.get('bg') !== '0';
+const FRAMES = +(q.get('frames') || 1);
+const view = q.get('view') || 'hero';
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: !withBg, preserveDrawingBuffer: true });
+renderer.setPixelRatio(SS);
+renderer.setSize(W, H);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.AgXToneMapping;
+renderer.toneMappingExposure = variant === 'ivory' ? 1.32 : 1.15;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.VSMShadowMap;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+
+/* ── Estúdio: ambiente de reflexos feito de "softboxes" emissivas ── */
+function studio(warm) {
+  const env = new THREE.Scene();
+  env.background = new THREE.Color(variant === 'ivory' ? 0xc4c3c0 : 0x050505);
+  const box = (w, h, color, intensity, pos, rot) => {
+    const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ color: new THREE.Color(color).multiplyScalar(intensity), side: THREE.DoubleSide }));
+    m.position.set(...pos); m.rotation.set(...rot); env.add(m);
+  };
+  box(5, 2.2, 0xffffff, 3.2, [-1, 6, 1.5], [Math.PI / 2, 0, 0]);       // softbox zenital
+  box(0.8, 10, 0xffffff, 5.0, [-6, 1, 2], [0, Math.PI / 2, 0]);        // faixa lateral esquerda (linha de luz longa)
+  box(0.4, 10, 0xffffff, 3.5, [6, 1, -1], [0, -Math.PI / 2, 0]);       // faixa lateral direita
+  box(10, 0.35, 0xffffff, 3.0, [0, 3.2, 6], [0, Math.PI, 0]);          // faixa frontal alta (brilho no bisel superior)
+  box(10, 0.25, 0xffffff, 1.4, [0, -2.2, 6], [0, Math.PI, 0]);         // faixa frontal baixa
+  box(0.35, 7, warm, 2.6, [3.5, 0.5, 5], [0, Math.PI, 0]);             // faixa âmbar: só um reflexo de detalhe
+  box(6, 6, variant === 'ivory' ? 0xd9d6d0 : 0x161616, 1, [0, 0, -7], [0, 0, 0]); // fundo
+  const gc = document.createElement('canvas'); gc.width = 8; gc.height = 256;
+  const gg = gc.getContext('2d'); const lg = gg.createLinearGradient(0, 0, 0, 256);
+  lg.addColorStop(0, '#ffffff'); lg.addColorStop(0.35, '#9a9a9a'); lg.addColorStop(0.7, '#161616'); lg.addColorStop(1, '#000000');
+  gg.fillStyle = lg; gg.fillRect(0, 0, 8, 256);
+  const gt = new THREE.CanvasTexture(gc); gt.colorSpace = THREE.SRGBColorSpace;
+  const front = new THREE.Mesh(new THREE.PlaneGeometry(16, 9), new THREE.MeshBasicMaterial({ map: gt, side: THREE.DoubleSide, color: new THREE.Color(1, 1, 1).multiplyScalar(variant === 'ivory' ? 1.6 : 1.25) }));
+  front.position.set(-2, 1.5, 8); front.rotation.set(0, Math.PI, 0); env.add(front);
+  return env;
+}
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(studio(0xffa630), 0.02).texture;
+scene.environmentIntensity = variant === 'ivory' ? 1.0 : 2.2;
+
+/* ── Fundo (opcional) com luz de recorte, no mesmo tom da seção do site ── */
+if (withBg) {
+  const c = document.createElement('canvas'); c.width = 1024; c.height = 1024;
+  const g = c.getContext('2d');
+  if (variant === 'ivory') {
+    const grd = g.createRadialGradient(560, 440, 40, 512, 512, 720);
+    grd.addColorStop(0, '#fbfaf8'); grd.addColorStop(0.55, '#ecebe7'); grd.addColorStop(1, '#dcdad5');
+    g.fillStyle = grd; g.fillRect(0, 0, 1024, 1024);
+  } else {
+    g.fillStyle = '#0b0b0c'; g.fillRect(0, 0, 1024, 1024);
+    const grd = g.createRadialGradient(600, 430, 10, 600, 470, 600);
+    grd.addColorStop(0, 'rgba(92,92,96,.55)'); grd.addColorStop(0.45, 'rgba(40,40,42,.35)'); grd.addColorStop(1, 'rgba(11,11,12,0)');
+    g.fillStyle = grd; g.fillRect(0, 0, 1024, 1024);
+  }
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+  scene.background = t;
+}
+
+/* ── Geometria: uma pena da asa ── */
+function feather(len, h, sweep) {
+  // topo reto (y=0) → ponta reta à direita → base → cauda curva que sobe até o canto superior esquerdo
+  const s = new THREE.Shape();
+  s.moveTo(0, 0);
+  s.lineTo(len, 0);
+  s.lineTo(len, -h);
+  s.lineTo(sweep, -h);
+  s.bezierCurveTo(sweep * 0.45, -h, sweep * 0.12, -h * 0.55, 0, 0);
+  const geo = new THREE.ExtrudeGeometry(s, { depth: 0.2, bevelEnabled: true, bevelThickness: 0.07, bevelSize: 0.05, bevelSegments: 18, curveSegments: 128 });
+  geo.translate(-len, h / 2, -0.1); // origem na ponta direita (as penas alinham pela ponta, como no logo)
+  geo.computeVertexNormals();
+  return geo;
+}
+
+const M = {
+  noir: {
+    cap: new THREE.MeshPhysicalMaterial({ color: 0x121214, roughness: 0.32, metalness: 0.15, clearcoat: 1, clearcoatRoughness: 0.06, reflectivity: 0.8 }),
+    side: new THREE.MeshPhysicalMaterial({ color: 0x3a3a3d, roughness: 0.22, metalness: 1.0 }),
+    accent: new THREE.MeshPhysicalMaterial({ color: 0xe5a12e, roughness: 0.24, metalness: 1.0 }),
+  },
+  ivory: {
+    cap: new THREE.MeshPhysicalMaterial({ color: 0xfbfaf7, roughness: 0.3, metalness: 0.0, clearcoat: 0.8, clearcoatRoughness: 0.12 }),
+    side: new THREE.MeshPhysicalMaterial({ color: 0xf3f1ec, roughness: 0.28, metalness: 0.0, clearcoat: 0.8, clearcoatRoughness: 0.12 }),
+    accent: new THREE.MeshPhysicalMaterial({ color: 0xe5a12e, roughness: 0.3, metalness: 1.0 }),
+  },
+}[variant];
+
+const wing = new THREE.Group();
+const specs = [
+  // [comprimento, altura, varredura da cauda, deslocamento x da ponta, y, z]
+  [3.2, 0.5, 1.05, 0.0, 0.7, 0.0, 0.0],
+  [2.65, 0.46, 0.95, -0.12, 0.0, -0.45, -0.1],
+  [2.1, 0.42, 0.85, -0.24, -0.66, -0.9, -0.2],
+];
+specs.forEach(([len, h, sw, x, y, z, fan], i) => {
+  // tampas pretas laqueadas; lateral em metal grafite; a pena de baixo tem a lateral âmbar (único detalhe de cor)
+  const mats = [M.cap, i === 2 ? M.accent : M.side];
+  const mesh = new THREE.Mesh(feather(len, h, sw), mats);
+  mesh.position.set(x, y, z);
+  mesh.rotation.z = fan; // leque: as penas se abrem a partir da ponta, como numa asa
+  mesh.userData.fan = fan;
+  mesh.castShadow = true; mesh.receiveShadow = true;
+  wing.add(mesh);
+});
+
+wing.position.set(1.15, 0.05, 0.4);
+scene.add(wing);
+
+/* Luzes diretas: chave suave + recorte (dão o brilho de borda), sombras só no marfim */
+const key = new THREE.DirectionalLight(0xffffff, variant === 'ivory' ? 2.1 : 1.1);
+key.position.set(-3, 5, 4); key.castShadow = variant === 'ivory';
+key.shadow.mapSize.set(2048, 2048); key.shadow.radius = 28; key.shadow.blurSamples = 32; key.shadow.bias = -0.0005;
+Object.assign(key.shadow.camera, { left: -4, right: 4, top: 4, bottom: -4, near: 0.5, far: 20 });
+scene.add(key);
+const rim = new THREE.DirectionalLight(0xffffff, variant === 'ivory' ? 0.6 : 2.4); rim.position.set(4, 2, -5); scene.add(rim);
+const fill = new THREE.HemisphereLight(0xffffff, 0x222222, variant === 'ivory' ? 0.5 : 0.15); scene.add(fill);
+
+if (variant === 'ivory') {
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(30, 30), new THREE.ShadowMaterial({ opacity: 0.16 }));
+  floor.rotation.x = -Math.PI / 2; floor.position.y = view === 'center' ? -1.55 : -1.75; floor.receiveShadow = true; scene.add(floor);
+}
+
+/* Movimento do loop: balanço lento e contínuo (sem cortes), 1 ciclo = FRAMES quadros */
+const base = { x: -0.22, y: -0.95, z: 0.1 };
+
+const camera = new THREE.PerspectiveCamera(view === 'square' ? 26 : 24, W / H, 0.1, 100);
+if (view === 'center') {
+  // enquadramento centrado: a escultura ocupa o centro do quadro (o layout do site decide a posição)
+  wing.position.set(0, 0, 0);
+  wing.rotation.set(base.x, base.y, base.z);
+  wing.updateMatrixWorld(true);
+  const c = new THREE.Box3().setFromObject(wing).getCenter(new THREE.Vector3());
+  wing.position.sub(c);
+  camera.fov = +(q.get('fov') || 22); camera.updateProjectionMatrix();
+  camera.position.set(-1.1, -0.35, +(q.get('dist') || 10.5));
+  camera.lookAt(0, -0.05, 0);
+} else if (view === 'square') { camera.position.set(-0.6, 0.6, 11); camera.lookAt(0.2, -0.1, 0); wing.position.set(0.55, 0.15, 0); }
+else { camera.position.set(-1.0, -0.3, 9.6); camera.lookAt(-0.35, 0.05, 0); }
+const restY = wing.position.y;
+window.renderFrame = (f) => {
+  const t = (f / FRAMES) * Math.PI * 2;
+  wing.rotation.set(base.x + Math.sin(t) * 0.035, base.y + Math.sin(t) * 0.16, base.z + Math.cos(t) * 0.02);
+  wing.position.y = restY + Math.sin(t * 2) * 0.03;
+  wing.children.forEach((m, i) => { m.rotation.y = Math.sin(t + i * 0.7) * 0.05; m.rotation.z = m.userData.fan + Math.sin(t + i * 0.9) * 0.025; });
+  renderer.render(scene, camera);
+  return true;
+};
+window.renderFrame(0);
+window.__ready = true;
+</script>
+</body>
+</html>

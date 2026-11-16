@@ -1,0 +1,10 @@
+services:
+  site:
+    build: .
+    restart: unless-stopped
+    ports: ["3000:3000"]
+    env_file: .env.production
+    volumes:
+      - grifo-data:/data   # banco SQLite + uploads (faça backup deste volume)
+volumes:
+  grifo-data:

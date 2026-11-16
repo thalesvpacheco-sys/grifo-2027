@@ -1,0 +1,5 @@
+
+> grifo-site@1.0.0 lint
+> tsc --noEmit
+
+lint exit 0

@@ -1,0 +1,69 @@
+   ▲ Next.js 15.5.28
+   - Experiments (use with caution):
+     · serverActions
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 9.3s
+   Linting and checking validity of types ...
+   Collecting page data ...
+(node:2405) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+   Generating static pages (0/11) ...
+(node:2416) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+   Generating static pages (2/11) 
+   Generating static pages (5/11) 
+   Generating static pages (8/11) 
+ ✓ Generating static pages (11/11)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ƒ /                                    1.76 kB         113 kB
+├ ○ /_not-found                            156 B         103 kB
+├ ƒ /[...slug]                             186 B         112 kB
+├ ƒ /admin                                 168 B         106 kB
+├ ƒ /admin/auditoria                       168 B         106 kB
+├ ƒ /admin/conta                         2.31 kB         108 kB
+├ ƒ /admin/conteudo/[type]               1.15 kB         107 kB
+├ ƒ /admin/conteudo/[type]/[id]          10.1 kB         122 kB
+├ ƒ /admin/leads                           168 B         106 kB
+├ ƒ /admin/leads/[id]                    1.49 kB         108 kB
+├ ƒ /admin/login                         1.08 kB         104 kB
+├ ƒ /admin/login/2fa                     1.08 kB         104 kB
+├ ƒ /admin/midia                         3.68 kB         110 kB
+├ ƒ /admin/usuarios                      1.65 kB         108 kB
+├ ƒ /api/admin/leads/export                156 B         103 kB
+├ ƒ /api/admin/media                       156 B         103 kB
+├ ƒ /api/cron/retention                    156 B         103 kB
+├ ƒ /api/leads                             156 B         103 kB
+├ ƒ /api/preview                           156 B         103 kB
+├ ƒ /api/preview/sair                      156 B         103 kB
+├ ○ /apple-icon.png                          0 B            0 B
+├ ƒ /contato                               187 B         142 kB
+├ ƒ /especialidades                        186 B         112 kB
+├ ƒ /especialidades/[slug]               3.93 kB         146 kB
+├ ƒ /grifo-core                          3.96 kB         146 kB
+├ ○ /icon.png                                0 B            0 B
+├ ƒ /insights                            8.05 kB         126 kB
+├ ƒ /insights/[slug]                       839 B         112 kB
+├ ƒ /media/[...path]                       156 B         103 kB
+├ ƒ /metodologia-micca                   2.36 kB         114 kB
+├ ƒ /projetos                            2.12 kB         127 kB
+├ ƒ /projetos/[slug]                       449 B         122 kB
+├ ƒ /robots.txt                            156 B         103 kB
+├ ƒ /sitemap.xml                           156 B         103 kB
+├ ƒ /sobre                                 195 B         122 kB
+├ ƒ /solucoes                              186 B         112 kB
+└ ƒ /solucoes/[slug]                       844 B         112 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/1255-dc3ddf72a1dc71a7.js      46.6 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js  54.2 kB
+  └ other shared chunks (total)          1.94 kB
+
+
+ƒ Middleware                             34.8 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,374 @@
+{
+ "missingTotal": 37,
+ "routes": [
+  {
+   "r": "/",
+   "missing": [
+    "Mercado ImobiliárioDa inteligência de mercado à velocidade de vendas.Conhecer a especialidade",
+    "EducaçãoEstratégias para fortalecer instituições, atrair alunos e transformar interesse em matrículas.Conhecer a especialidade",
+    "TecnologiaPosicionamento, geração de demanda e crescimento para empresas que transformam mercados.Conhecer a especialidade"
+   ],
+   "added": [
+    "01Grifo ConsultingInteligência para tomar decisões melhores.›",
+    "02Grifo MarketingMarcas fortes, campanhas relevantes e comunicação orientada a resultados.›",
+    "03Grifo StudiosHistórias que ganham forma, movimento e emoção.›",
+    "04Grifo TechTecnologia para conectar dados, operações e oportunidades.›",
+    "01Mercado ImobiliárioDa inteligência de mercado à velocidade de vendas. — Conhecer a especialidade",
+    "02EducaçãoEstratégias para fortalecer instituições, atrair alunos e transformar interesse em matrículas. — Conhecer a especialidade",
+    "03TecnologiaPosicionamento, geração de demanda e crescimento para empresas que transformam mercados. — Conhecer a especialidade",
+    "04ConcessionáriasEstratégia, campanhas e experiências para marcas que movimentam o mercado automotivo. — Conhecer a especialidade",
+    "Arquivo em baixa resolução — aguardando originalReserva dos IpêsMercado ImobiliárioConsulting · MarketingAguardando aprovaçãoLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioConsulting · MarketingAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalNova HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "UNICEUG — Vestibular 2025/12025EducaçãoMarketing · StudiosAguardando aprovaçãoCampanha de captação “Prática + conhecimento = carreira de sucesso”, desdobrada por curso e formatos.",
+    "EducaçãoMarketing · StudiosAguardando aprovação",
+    "Imagem pendentePinautoOutros segmentosMarketingAguardando aprovaçãoProjeto em fase de documentação.",
+    "Outros segmentosMarketingAguardando aprovação",
+    "Imagem pendenteEsfiharia BrasilOutros segmentosMarketingAguardando aprovaçãoProjeto em fase de documentação.",
+    "06",
+    "07",
+    "MICCA20 de outubro de 20261 min de leituraRascunho editorial",
+    "Imobiliário06 de outubro de 20261 min de leituraRascunho editorial",
+    "Educação22 de setembro de 20261 min de leituraRascunho editorial"
+   ]
+  },
+  {
+   "r": "/sobre",
+   "missing": [],
+   "added": [
+    "1 / 3",
+    "‹",
+    "›"
+   ]
+  },
+  {
+   "r": "/solucoes",
+   "missing": [],
+   "added": [
+    "01Grifo ConsultingInteligência para tomar decisões melhores.",
+    "02Grifo MarketingMarcas fortes, campanhas relevantes e comunicação orientada a resultados.",
+    "03Grifo StudiosHistórias que ganham forma, movimento e emoção.",
+    "04Grifo TechTecnologia para conectar dados, operações e oportunidades."
+   ]
+  },
+  {
+   "r": "/solucoes/consulting",
+   "missing": [],
+   "added": [
+    "01Grifo MarketingMarcas fortes, campanhas relevantes e comunicação orientada a resultados.",
+    "02Grifo StudiosHistórias que ganham forma, movimento e emoção.",
+    "03Grifo TechTecnologia para conectar dados, operações e oportunidades."
+   ]
+  },
+  {
+   "r": "/solucoes/marketing",
+   "missing": [],
+   "added": [
+    "01Grifo ConsultingInteligência para tomar decisões melhores.",
+    "02Grifo StudiosHistórias que ganham forma, movimento e emoção.",
+    "03Grifo TechTecnologia para conectar dados, operações e oportunidades."
+   ]
+  },
+  {
+   "r": "/solucoes/studios",
+   "missing": [],
+   "added": [
+    "01Grifo ConsultingInteligência para tomar decisões melhores.",
+    "02Grifo MarketingMarcas fortes, campanhas relevantes e comunicação orientada a resultados.",
+    "03Grifo TechTecnologia para conectar dados, operações e oportunidades."
+   ]
+  },
+  {
+   "r": "/solucoes/tech",
+   "missing": [],
+   "added": [
+    "01Grifo ConsultingInteligência para tomar decisões melhores.",
+    "02Grifo MarketingMarcas fortes, campanhas relevantes e comunicação orientada a resultados.",
+    "03Grifo StudiosHistórias que ganham forma, movimento e emoção."
+   ]
+  },
+  {
+   "r": "/especialidades",
+   "missing": [
+    "[title] Especialidades — Imobiliário, Educação e Tecnologia | Grifo → Especialidades — Imobiliário, Educação, Tecnologia e Concessionárias | Grifo"
+   ],
+   "added": [
+    "01Mercado ImobiliárioDa inteligência de mercado à velocidade de vendas.",
+    "02EducaçãoEstratégias para fortalecer instituições, atrair alunos e transformar interesse em matrículas.",
+    "03TecnologiaPosicionamento, geração de demanda e crescimento para empresas que transformam mercados.",
+    "04ConcessionáriasEstratégia, campanhas e experiências para marcas que movimentam o mercado automotivo."
+   ]
+  },
+  {
+   "r": "/especialidades/imobiliario",
+   "missing": [],
+   "added": [
+    "Arquivo em baixa resolução — aguardando originalReserva dos IpêsMercado ImobiliárioConsulting · MarketingAguardando aprovaçãoLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioConsulting · MarketingAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalReserva HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com comunicação centrada na vida em família.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalAEROMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com experiência de PDV.",
+    "Arquivo em baixa resolução — aguardando originalEldorado VeredasMercado ImobiliárioMarketingAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketingAguardando aprovação",
+    "Concessionárias"
+   ]
+  },
+  {
+   "r": "/especialidades/educacao",
+   "missing": [],
+   "added": [
+    "UNICEUG — Vestibular 2025/12025EducaçãoMarketing · StudiosAguardando aprovaçãoCampanha de captação “Prática + conhecimento = carreira de sucesso”, desdobrada por curso e formatos.",
+    "EducaçãoMarketing · StudiosAguardando aprovação",
+    "Concessionárias"
+   ]
+  },
+  {
+   "r": "/especialidades/tecnologia",
+   "missing": [],
+   "added": [
+    "Concessionárias"
+   ]
+  },
+  {
+   "r": "/especialidades/concessionarias",
+   "note": "baseline 404 → depois 200"
+  },
+  {
+   "r": "/metodologia-micca",
+   "missing": [],
+   "added": [
+    "Concessionárias"
+   ]
+  },
+  {
+   "r": "/projetos",
+   "missing": [
+    "Mercado ImobiliárioConsulting, MarketingAguardando aprovaçãoReserva dos IpêsLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoNova HarmoniaCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoReserva HarmoniaLançamento com comunicação centrada na vida em família.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoAEROLançamento com experiência de PDV.",
+    "Mercado ImobiliárioMarketingAguardando aprovaçãoEldorado VeredasCampanha de lançamento com mídia exterior.",
+    "EducaçãoMarketing, StudiosAguardando aprovaçãoUNICEUG — Vestibular 2025/1Campanha de captação “Prática + conhecimento = carreira de sucesso”, desdobrada por curso e formatos.",
+    "Imagem pendenteOutros segmentosMarketingAguardando aprovaçãoPinautoProjeto em fase de documentação.",
+    "Imagem pendenteOutros segmentosMarketingAguardando aprovaçãoEsfiharia BrasilProjeto em fase de documentação."
+   ],
+   "added": [
+    "Arquivo em baixa resolução — aguardando originalReserva dos IpêsMercado ImobiliárioConsulting · MarketingAguardando aprovaçãoLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioConsulting · MarketingAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalNova HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalReserva HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com comunicação centrada na vida em família.",
+    "Arquivo em baixa resolução — aguardando originalAEROMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com experiência de PDV.",
+    "Arquivo em baixa resolução — aguardando originalEldorado VeredasMercado ImobiliárioMarketingAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "UNICEUG — Vestibular 2025/12025EducaçãoMarketing · StudiosAguardando aprovaçãoCampanha de captação “Prática + conhecimento = carreira de sucesso”, desdobrada por curso e formatos.",
+    "EducaçãoMarketing · StudiosAguardando aprovação",
+    "Imagem pendentePinautoOutros segmentosMarketingAguardando aprovaçãoProjeto em fase de documentação.",
+    "Imagem pendenteEsfiharia BrasilOutros segmentosMarketingAguardando aprovaçãoProjeto em fase de documentação."
+   ]
+  },
+  {
+   "r": "/projetos/reserva-dos-ipes",
+   "missing": [
+    "Consulting, Marketing",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoNova HarmoniaCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoReserva HarmoniaLançamento com comunicação centrada na vida em família.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoAEROLançamento com experiência de PDV."
+   ],
+   "added": [
+    "Setor",
+    "Consulting · Marketing",
+    "01",
+    "‹ Esfiharia Brasil",
+    "Próximo projeto",
+    "Arquivo em baixa resolução — aguardando originalReserva HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com comunicação centrada na vida em família.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalAEROMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com experiência de PDV.",
+    "Arquivo em baixa resolução — aguardando originalEldorado VeredasMercado ImobiliárioMarketingAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Eldorado Veredas",
+    "Mercado ImobiliárioMarketingAguardando aprovação"
+   ]
+  },
+  {
+   "r": "/projetos/nova-harmonia",
+   "missing": [
+    "Marketing, Studios",
+    "Mercado ImobiliárioConsulting, MarketingAguardando aprovaçãoReserva dos IpêsLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoReserva HarmoniaLançamento com comunicação centrada na vida em família.",
+    "Lançamento com comunicação centrada na vida em família.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoAEROLançamento com experiência de PDV."
+   ],
+   "added": [
+    "Setor",
+    "Marketing · Studios",
+    "‹ Reserva dos Ipês",
+    "Próximo projeto",
+    "Arquivo em baixa resolução — aguardando originalReserva dos IpêsMercado ImobiliárioConsulting · MarketingAguardando aprovaçãoLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioConsulting · MarketingAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalAEROMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com experiência de PDV.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalEldorado VeredasMercado ImobiliárioMarketingAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Eldorado Veredas",
+    "Mercado ImobiliárioMarketingAguardando aprovação"
+   ]
+  },
+  {
+   "r": "/projetos/reserva-harmonia",
+   "missing": [
+    "Marketing, Studios",
+    "Mercado ImobiliárioConsulting, MarketingAguardando aprovaçãoReserva dos IpêsLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoNova HarmoniaCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoAEROLançamento com experiência de PDV.",
+    "Lançamento com experiência de PDV."
+   ],
+   "added": [
+    "Setor",
+    "Marketing · Studios",
+    "‹ Nova Harmonia",
+    "Próximo projeto",
+    "Arquivo em baixa resolução — aguardando originalReserva dos IpêsMercado ImobiliárioConsulting · MarketingAguardando aprovaçãoLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioConsulting · MarketingAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalNova HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalEldorado VeredasMercado ImobiliárioMarketingAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Eldorado Veredas",
+    "Mercado ImobiliárioMarketingAguardando aprovação"
+   ]
+  },
+  {
+   "r": "/projetos/aero",
+   "missing": [
+    "Marketing, Studios",
+    "Mercado ImobiliárioConsulting, MarketingAguardando aprovaçãoReserva dos IpêsLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoNova HarmoniaCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoReserva HarmoniaLançamento com comunicação centrada na vida em família."
+   ],
+   "added": [
+    "Setor",
+    "Marketing · Studios",
+    "‹ Reserva Harmonia",
+    "Próximo projeto",
+    "Eldorado Veredas",
+    "Arquivo em baixa resolução — aguardando originalReserva dos IpêsMercado ImobiliárioConsulting · MarketingAguardando aprovaçãoLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioConsulting · MarketingAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalNova HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalReserva HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com comunicação centrada na vida em família."
+   ]
+  },
+  {
+   "r": "/projetos/eldorado-veredas",
+   "missing": [
+    "Mercado ImobiliárioConsulting, MarketingAguardando aprovaçãoReserva dos IpêsLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoNova HarmoniaCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing, StudiosAguardando aprovaçãoReserva HarmoniaLançamento com comunicação centrada na vida em família."
+   ],
+   "added": [
+    "Setor",
+    "‹ AERO",
+    "Próximo projeto",
+    "UNICEUG — Vestibular 2025/1",
+    "Educação",
+    "Arquivo em baixa resolução — aguardando originalReserva dos IpêsMercado ImobiliárioConsulting · MarketingAguardando aprovaçãoLançamento imobiliário com conceito “Sua vida floresce aqui”.",
+    "Mercado ImobiliárioConsulting · MarketingAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalNova HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoCampanha de lançamento com mídia exterior.",
+    "Mercado ImobiliárioMarketing · StudiosAguardando aprovação",
+    "Arquivo em baixa resolução — aguardando originalReserva HarmoniaMercado ImobiliárioMarketing · StudiosAguardando aprovaçãoLançamento com comunicação centrada na vida em família."
+   ]
+  },
+  {
+   "r": "/projetos/uniceug-vestibular-2025-1",
+   "missing": [
+    "Marketing, Studios"
+   ],
+   "added": [
+    "Setor",
+    "Marketing · Studios",
+    "01",
+    "03",
+    "1 / 1",
+    "04",
+    "‹ Eldorado Veredas",
+    "Próximo projeto",
+    "Pinauto",
+    "Outros segmentos",
+    "Imagem pendente"
+   ]
+  },
+  {
+   "r": "/projetos/pinauto",
+   "missing": [
+    "Outros projetos em Outros segmentos",
+    "Imagem pendenteOutros segmentosMarketingAguardando aprovaçãoEsfiharia BrasilProjeto em fase de documentação."
+   ],
+   "added": [
+    "Setor",
+    "‹ UNICEUG — Vestibular 2025/1",
+    "Próximo projeto"
+   ]
+  },
+  {
+   "r": "/projetos/esfiharia-brasil",
+   "missing": [
+    "Imagem pendenteOutros segmentosMarketingAguardando aprovaçãoPinautoProjeto em fase de documentação."
+   ],
+   "added": [
+    "Setor",
+    "‹ Pinauto",
+    "Próximo projeto",
+    "Reserva dos Ipês",
+    "Mercado Imobiliário",
+    "Imagem pendentePinautoOutros segmentosMarketingAguardando aprovaçãoProjeto em fase de documentação."
+   ]
+  },
+  {
+   "r": "/insights",
+   "missing": [],
+   "added": []
+  },
+  {
+   "r": "/insights/micca-decisoes-antes-da-campanha",
+   "missing": [],
+   "added": []
+  },
+  {
+   "r": "/insights/lancamento-imobiliario-mais-que-campanha",
+   "missing": [],
+   "added": []
+  },
+  {
+   "r": "/insights/captacao-de-alunos-jornada",
+   "missing": [],
+   "added": []
+  },
+  {
+   "r": "/contato",
+   "missing": [],
+   "added": [
+    "Concessionárias"
+   ]
+  },
+  {
+   "r": "/grifo-core",
+   "missing": [],
+   "added": [
+    "Concessionárias"
+   ]
+  },
+  {
+   "r": "/politica-de-privacidade",
+   "missing": [],
+   "added": []
+  },
+  {
+   "r": "/politica-de-cookies",
+   "missing": [],
+   "added": []
+  },
+  {
+   "r": "/termos-de-uso",
+   "missing": [],
+   "added": []
+  }
+ ]
+}
